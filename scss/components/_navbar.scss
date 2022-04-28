@@ -1,0 +1,27 @@
+
+
+$black: #181818;
+$white: #FFFFFF;
+$silver: #BEBFC4;
+$green: #282828;
+$yellow: #EEC643;
+* { 
+      margin: 0;
+      padding: 0;
+}
+
+#navbar{ 
+      top: 5vh;
+      position: relative;
+      display: flex;
+      justify-content: space-evenly;
+      // background-color: $black;
+      font-family: font;
+      font-size: 2rem;
+      a { 
+            text-decoration: none;
+            
+            
+      }
+      
+}
