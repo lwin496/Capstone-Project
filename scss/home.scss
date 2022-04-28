@@ -1,16 +1,17 @@
 
-// import navbar DONT TOUCH
+// imports DONT TOUCH
 
 @import "./components/text";
 @import "./components/navbar";
 @import "./components/footer";
 
 
-$black: #181818;
-$white: #FFFFFF;
+$black: #121212;
+$white: #F5F5F5;
 $silver: #BEBFC4;
-$green: #282828;
+$green: #30475E;
 $yellow: #EEC643;
+$background: #F05454;
 
 
 *{ 
@@ -20,11 +21,10 @@ $yellow: #EEC643;
 }
 
 body { 
-      background-image: url('../images/refueling_night_dark_151920_1920x1080.jpg');
+      background: $background;
       height: 100vh;
       width: 100vw;
-      
-     
+      overflow-x: hidden;
      
 //      video { 
 //            object-fit: cover;
@@ -36,16 +36,14 @@ body {
 }
 #navbar{ 
       font-family: LouisBold;
-      a{ 
-            color: $yellow;
-      }
+  
 }
 .highlight { 
       color: $yellow;
 }
 
 .container { 
-      position: fixed;
+      position: relative;
       
    
 }
@@ -54,51 +52,59 @@ body {
       color: white;
       font-size: 5rem;
       // width: 10rem;
-      position: fixed;
+      position: relative;
       left: 10vw;
-      top: 40vh;
-      text-shadow: 2px 2px 2px $yellow;
+      top: 30vh;
+      text-shadow: 5px 5px 10px $black;
+      
 } 
 .reel-header2 { 
       font-family:Akira;
       color: $yellow;
       font-size: 5rem;
       // width: 10rem;
-      position: fixed;
+      position: relative;
       left: 10vw;
-      top: 50vh;
-      text-shadow: 2px 2px 2px $black;
+      top: 30vh;
+      text-shadow: 5px 5px 10px $black;
+     
 } 
 .reel-subheader { 
       font-family:Akira;
       color: white;
       font-size: 2rem;
-      position: fixed;
+      position: relative;
       left: 10vw;
-      top: 60vh;
-      text-shadow: 2px 2px 2px $yellow;
+      top: 30vh;
+      text-shadow: 5px 5px 10px $black;
 }
 
 .dualButtons { 
-      position: fixed;
-      top: 90vh;
-      left: 70vw;
-     
-      a {
-           
-           white-space: nowrap;
-           overflow: hidden;
-            width: 15rem;
-            height: 10rem;
-            font-family: Louis;
-            font-size: 3rem;
-            border-radius: 10rem;
-            padding: 10px;
-            background-color: $yellow;
-            text-shadow: 1px 1px $black;
+      margin-top: -10vh;
+      position: relative;
+      top: 55vh;
+      left: 65vw;
+      display: flex;
+      gap: 10px;
+      a { 
+            box-shadow: 0 10px 5px -5px $green;
+            white-space: nowrap;
+            overflow: hidden;
+            font-family: LouisBold;
             text-decoration: none;
-            color: $white;
-            box-shadow: 3px 3px $black;
-            
+            color: $green;
+            background-color: $white;
+            padding: 2rem;
+            font-size: 1.5rem;
       }
+     
+    
 }
+
+.footer { 
+      height: 50vh;
+      width: 100vw;
+      position: relative;
+}
+
+
