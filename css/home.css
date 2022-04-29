@@ -38,9 +38,8 @@
   text-decoration: none;
   position: relative;
 }
-
 #navbar a::before {
-  content: '';
+  content: "";
   background-color: #121212;
   position: absolute;
   left: 0;
@@ -48,23 +47,21 @@
   width: 100%;
   height: 0px;
   z-index: -1;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-
 #navbar a:hover::before {
   bottom: 0;
   height: 100%;
 }
-
 #navbar a::before {
-  content: '';
+  content: "";
   background-color: rgba(240, 84, 84, 0.75);
   position: absolute;
   left: 0;
   bottom: 0px;
   width: 100%;
   z-index: -1;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 @font-face {
@@ -78,7 +75,7 @@ body .footer {
   background-color: #121212;
   width: 100%;
   height: 22vh;
-  color: #F5F5F5;
+  color: #f5f5f5;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -108,6 +105,10 @@ body .logo {
   margin-top: 2rem;
   height: 13vh;
   width: 16vw;
+}
+body .media {
+  width: 2rem;
+  height: 2rem;
 }
 
 * {
@@ -186,14 +187,6 @@ body video {
   background-color: #121212;
   padding: 2rem;
   font-size: 1.5rem;
-<<<<<<< HEAD
-}
-
-.footer {
-  height: 50vh;
-  width: 100vw;
-  position: relative;
-  background-color: #121212;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -215,8 +208,4 @@ body video {
 *::-webkit-scrollbar-thumb {
   background-color: #F5F5F5;
   border-radius: 10px;
-}
-/*# sourceMappingURL=home.css.map */
-=======
 }/*# sourceMappingURL=home.css.map */
->>>>>>> a65569882ce82d6da723f00bdaf46da29c99a7e5
