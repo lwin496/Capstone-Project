@@ -2,22 +2,18 @@
   font-family: Akira;
   src: url("../fonts/Akira Expanded Demo.otf");
 }
-
 @font-face {
   font-family: LouisBold;
   src: url("../fonts/Louis George Cafe Bold.ttf");
 }
-
 @font-face {
   font-family: LouisLight;
   src: url("../fonts/Louis George Cafe Light.ttf.ttf");
 }
-
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -37,16 +33,52 @@
   width: 50rem;
   box-shadow: 0 10px 5px -5px #F05454;
 }
-
 #navbar a {
   color: #F5F5F5;
   text-decoration: none;
 }
 
-.footer {
-  position: fixed;
-  top: 96.5vh;
-  background-color: #181818;
+@font-face {
+  font-family: Louis;
+  src: url("../fonts/Louis George Cafe.ttf");
+}
+body .footer {
+  position: relative;
+  top: 70vh;
+  font-family: Louis;
+  background-color: #121212;
+  width: 100%;
+  height: 22vh;
+  color: #F5F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+body .produced {
+  margin-top: 5rem;
+  font-size: 1rem;
+  margin-right: 5rem;
+}
+body .contact {
+  margin-top: 5rem;
+  font-size: 1rem;
+  margin-right: 5rem;
+}
+body .address {
+  margin-top: 5rem;
+  font-size: 1rem;
+  margin-right: 5rem;
+}
+body .big {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 2rem;
+}
+body .logo {
+  margin-top: 2rem;
+  height: 13vh;
+  width: 16vw;
 }
 
 * {
@@ -57,7 +89,6 @@
 body {
   overflow-x: hidden;
 }
-
 body video {
   object-fit: cover;
   position: fixed;
@@ -115,7 +146,6 @@ body video {
   display: flex;
   gap: 10px;
 }
-
 .dualButtons a {
   box-shadow: 0 10px 5px -5px #F05454;
   white-space: nowrap;
@@ -126,12 +156,4 @@ body video {
   background-color: #121212;
   padding: 2rem;
   font-size: 1.5rem;
-}
-
-.footer {
-  height: 50vh;
-  width: 100vw;
-  position: relative;
-  background-color: #121212;
-}
-/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */
