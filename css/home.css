@@ -41,6 +41,35 @@
 #navbar a {
   color: #F5F5F5;
   text-decoration: none;
+  position: relative;
+}
+
+#navbar a::before {
+  content: '';
+  background-color: #121212;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 0px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+#navbar a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+#navbar a::before {
+  content: '';
+  background-color: rgba(240, 84, 84, 0.75);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  z-index: -1;
+  transition: all .2s ease-in-out;
 }
 
 .footer {
@@ -67,6 +96,7 @@ body video {
 
 #navbar {
   font-family: LouisBold;
+  z-index: 50;
 }
 
 .highlight {
@@ -133,5 +163,26 @@ body video {
   width: 100vw;
   position: relative;
   background-color: #121212;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #121212;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #F5F5F5;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=home.css.map */
