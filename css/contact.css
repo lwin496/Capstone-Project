@@ -1,1 +1,178 @@
+@font-face {
+  font-family: Akira;
+  src: url("../fonts/Akira Expanded Demo.otf");
+}
+
+@font-face {
+  font-family: LouisBold;
+  src: url("../fonts/Louis George Cafe Bold.ttf");
+}
+
+@font-face {
+  font-family: LouisLight;
+  src: url("../fonts/Louis George Cafe Light.ttf.ttf");
+}
+
+@font-face {
+  font-family: Louis;
+  src: url("../fonts/Louis George Cafe.ttf");
+}
+
+@font-face {
+  font-family: Louis;
+  src: url("../fonts/Louis George Cafe.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #121212;
+  font-family: font;
+  font-size: 1.5rem;
+  height: max-content;
+  padding: 1rem;
+  margin: auto;
+  top: 5vh;
+  width: 50rem;
+  box-shadow: 0 10px 5px -5px #F05454;
+}
+
+#navbar a {
+  font-family: Louis;
+  color: #F5F5F5;
+  text-decoration: none;
+  position: relative;
+}
+
+#navbar a::before {
+  content: '';
+  background-color: #121212;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 0px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+#navbar a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+#navbar a::before {
+  content: '';
+  background-color: rgba(240, 84, 84, 0.75);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  z-index: -1;
+  transition: all .2s ease-in-out;
+}
+
+@font-face {
+  font-family: Louis;
+  src: url("../fonts/Louis George Cafe.ttf");
+}
+
+body .footer {
+  position: relative;
+  top: 70vh;
+  font-family: Louis;
+  background-color: #121212;
+  width: 100%;
+  height: 22vh;
+  color: #F5F5F5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+body .produced {
+  margin-top: 5rem;
+  font-size: 1rem;
+  margin-right: 5rem;
+}
+
+body .contact {
+  margin-top: 5rem;
+  font-size: 1rem;
+  margin-right: 5rem;
+}
+
+body .address {
+  margin-top: 5rem;
+  font-size: 1rem;
+  margin-right: 5rem;
+}
+
+body .big {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 2rem;
+}
+
+body .logo {
+  margin-top: 2rem;
+  height: 13vh;
+  width: 16vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+#navbar {
+  position: fixed;
+  z-index: 20;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.imageContainer {
+  position: absolute;
+  background-color: #F05454;
+  float: left;
+  height: 100vh;
+  width: 50%;
+}
+
+.imageContainer h1 {
+  position: relative;
+  top: 15vh;
+  left: 5vw;
+  font-family: LouisBold;
+  font-size: 3rem;
+  color: #F5F5F5;
+}
+
+.imageContainer hr {
+  position: relative;
+  width: 27rem;
+  height: .25rem;
+  background-color: #F05454;
+  border: none;
+  top: 15vh;
+  left: 5vw;
+}
 /*# sourceMappingURL=contact.css.map */
