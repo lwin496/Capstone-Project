@@ -89,7 +89,7 @@ body .produced {
 body .contact {
   margin-top: 5rem;
   font-size: 1rem;
-  margin-right: 5rem;
+  margin-right: -4rem;
 }
 body .address {
   margin-top: 5rem;
@@ -107,10 +107,35 @@ body .logo {
   width: 16vw;
 }
 body .media {
+  position: relative;
   width: 2rem;
   height: 2rem;
+  top: 2rem;
+  right: 9rem;
+}
+body #mailLink {
+  position: relative;
+  color: #f5f5f5;
+  bottom: 1.25rem;
+}
+body #mailLink :visited {
+  color: #f5f5f5;
 }
 
+@keyframes anime {
+  0% {
+    width: 3rem;
+    height: 1rem;
+  }
+  50% {
+    width: 7rem;
+    height: 9rem;
+  }
+  100% {
+    width: 7rem;
+    height: 3rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -132,7 +157,7 @@ body video {
 }
 
 .highlight {
-  color: #EEC643;
+  color: #eec643;
 }
 
 .container {
@@ -151,7 +176,7 @@ body video {
 
 .reel-header2 {
   font-family: Akira;
-  color: #F05454;
+  color: #f05454;
   font-size: 5rem;
   position: relative;
   left: 10vw;
@@ -178,15 +203,18 @@ body video {
   gap: 10px;
 }
 .dualButtons a {
-  box-shadow: 0 10px 5px -5px #F05454;
+  box-shadow: 0 10px 5px -5px #f05454;
   white-space: nowrap;
   overflow: hidden;
   font-family: LouisBold;
   text-decoration: none;
-  color: #F5F5F5;
+  color: #f5f5f5;
   background-color: #121212;
   padding: 2rem;
   font-size: 1.5rem;
+}
+.dualButtons :hover {
+  animation: anime 3s cubic-bezier(0.16, 1, 0.3, 1) 1s infinite alternate;
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -206,6 +234,6 @@ body video {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   border-radius: 10px;
 }/*# sourceMappingURL=home.css.map */
