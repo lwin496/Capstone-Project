@@ -7,6 +7,10 @@ $green: #30475E;
 $yellow: #EEC643;
 $background: #F05454;
 
+@font-face {
+      font-family: Louis;
+      src: url("../fonts/Louis\ George\ Cafe.ttf")
+}
 * { 
       margin: 0;
       padding: 0;
@@ -14,7 +18,8 @@ $background: #F05454;
 
 #navbar{ 
       // top: 5vh;
-      position: relative;
+     
+      position:relative;
       display: flex;
       justify-content: space-evenly;
       background-color: $black;
@@ -27,9 +32,11 @@ $background: #F05454;
       width: 50rem;
       box-shadow: 0 10px 5px -5px $background;
       a { 
+            font-family: Louis;
             color: $white;
             text-decoration: none;
             position: relative;
+            
             &::before{ 
                   content: '';
                   background-color: $black;
