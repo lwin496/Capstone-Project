@@ -27,31 +27,66 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-.imageContainer {
-  position: absolute;
-  background-color: $background;
-  float: left;
-  height: 100vh;
-  width: 50%;
-  h1 {
-    position: relative;
-    top: 15vh;
-    left: 5vw;
-    font-family: LouisBold;
-    font-size: 3rem;
-    color: $white;
-  }
-  hr {
-    position: relative;
-    width: 27rem;
-    height: 0.25rem;
-    background-color: $background;
-    border: none;
-    top: 15vh;
-    left: 5vw;
-  }
+.imageContainer{ 
+      
+      background-color: $black;
+      float: left;
+      height: 100vh;
+      width: 35%; 
+      h1 { 
+            position: relative;
+            top: 20vh;
+            left: 10vw;
+            font-family: LouisBold;
+            font-size: 3rem;
+            color: $white;
+         
+      }
+      hr { 
+            position: relative;
+            width: 27rem;
+            height: .25rem;
+            background-color: $white;
+            border: none;
+            top: 20vh;
+            left: 10vw;
+      }
+      img { 
+          position: relative;
+          left: 10vw;
+          top: 30vh;
+          
+      }
 }
-//footer
+.inputContainer{ 
+            background-color: $black;
+            float: right;
+            height: 100vh;
+            width: 65%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       
+}
+
+.inputs {
+     display: flex;
+     flex-direction: column;
+     gap: 2.5rem;
+     input{ 
+           margin-left: 10vw;
+           font-family: Louis;
+           border: none;
+           border-bottom: 5px solid $background;
+           background-color: $black;
+           font-size: 2rem;
+           color: #BEBFC4;
+           
+     }
+
+
+
+}
 .footer {
   position: relative !important;
   top: 0vh !important;
