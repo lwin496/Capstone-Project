@@ -48,7 +48,6 @@ body {
     position: relative;
     left: 50vw;
     text-shadow: 0 0 5px $black;
-    top: 40vh;
     width: 40vw;
   }
 
@@ -59,8 +58,8 @@ body {
     position: relative;
     left: 50vw;
     text-shadow: 0 0 5px $black;
-    top: 20vh;
     width: 40vw;
+    bottom: 9rem;
   }
 
   .description {
@@ -71,18 +70,22 @@ body {
     left: 50vw;
     text-shadow: 0 0 5px $black;
     width: 40vw;
+    bottom: 17rem;
   }
 
   .cameraPic {
-    width: 20rem;
-    height: 10rem;
+    position: relative;
+    top: 10rem;
+    left: 3rem;
+    width: 25rem;
+    height: 15rem;
   }
 }
 
 //footer
 .footer {
   position: relative !important;
-  top: 53.5vh !important;
+  top: 0vh !important;
 }
 
 /* ===== Scrollbar CSS ===== */
