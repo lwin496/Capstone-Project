@@ -3,6 +3,7 @@ $white: #ffffff;
 $silver: #bebfc4;
 $green: #183c28;
 $yellow: #eec643;
+$background: #f05454;
 
 @import './components/text';
 @import './components/navbar';
@@ -11,6 +12,11 @@ $yellow: #eec643;
 @font-face {
   font-family: LouisBold;
   src: url('../fonts/Louis\ George\ Cafe\ Bold.ttf');
+}
+
+@font-face {
+  font-family: Louis;
+  src: url('../fonts/Louis\ George\ Cafe.ttf');
 }
 
 * {
@@ -27,9 +33,75 @@ body {
   .title {
     position: relative;
     top: 6rem;
-    font-size: 2rem;
+    font-size: 6rem;
     font-family: LouisBold;
     left: 4rem;
     color: white;
+    width: 40vw;
+    text-shadow: 0 0 10px $black;
   }
+
+  .missionTitle {
+    color: $white;
+    font-family: LouisBold;
+    font-size: 3rem;
+    position: relative;
+    left: 50vw;
+    text-shadow: 0 0 5px $black;
+    top: 40vh;
+    width: 40vw;
+  }
+
+  .mission {
+    color: $white;
+    font-family: Louis;
+    font-size: 2rem;
+    position: relative;
+    left: 50vw;
+    text-shadow: 0 0 5px $black;
+    top: 20vh;
+    width: 40vw;
+  }
+
+  .description {
+    color: $white;
+    font-family: Louis;
+    font-size: 2rem;
+    position: relative;
+    left: 50vw;
+    text-shadow: 0 0 5px $black;
+    width: 40vw;
+  }
+
+  .cameraPic {
+    width: 20rem;
+    height: 10rem;
+  }
+}
+
+//footer
+.footer {
+  position: relative !important;
+  top: 53.5vh !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: $black;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $silver;
+  border-radius: 10px;
 }
