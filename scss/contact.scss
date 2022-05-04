@@ -1,42 +1,42 @@
-$black: #040F0F;
-$white: #FFFFFF;
-$silver: #BEBFC4;
-$green: #183C28;
-$yellow: #EEC643;
-$background: #F05454;
+$black: #040f0f;
+$white: #ffffff;
+$silver: #bebfc4;
+$green: #183c28;
+$yellow: #eec643;
+$background: #f05454;
 
-@import "./components/text";
-@import "./components/navbar";
-@import "./components/footer";
+@import './components/text';
+@import './components/navbar';
+@import './components/footer';
 
-*{ 
-      margin: 0;
-      padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{ 
-      background-color: $white      ;
-      overflow-x: hidden;
+body {
+  background-color: $white;
+  overflow-x: hidden;
 }
-.main{ 
-      height: 100vh;
-      width: 100vw;
+.main {
+  height: 100vh;
+  width: 100vw;
 }
-#navbar { 
-      position: fixed;
-      z-index: 20;
-      left: 50%;
-      transform: translateX(-50%);
+#navbar {
+  position: fixed;
+  z-index: 20;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .imageContainer{ 
       
       background-color: $black;
       float: left;
       height: 100vh;
-      width: 35%;
+      width: 35%; 
       h1 { 
             position: relative;
             top: 20vh;
-            left: 3vw;
+            left: 10vw;
             font-family: LouisBold;
             font-size: 3rem;
             color: $white;
@@ -49,18 +49,17 @@ body{
             background-color: $white;
             border: none;
             top: 20vh;
-            left: 3vw;
+            left: 10vw;
       }
       img { 
           position: relative;
-          left: 1vw;
+          left: 10vw;
           top: 30vh;
+          
       }
 }
 .inputContainer{ 
-      
-            
-            background-color: $white;
+            background-color: $black;
             float: right;
             height: 100vh;
             width: 65%;
@@ -73,21 +72,43 @@ body{
 .inputs {
      display: flex;
      flex-direction: column;
-     gap: 1rem;
+     gap: 2.5rem;
      input{ 
+           margin-left: 10vw;
            font-family: Louis;
            border: none;
-           border-bottom: 5px solid $silver;
-           background-color: $white;
+           border-bottom: 5px solid $background;
+           background-color: $black;
            font-size: 2rem;
            color: #BEBFC4;
            
      }
 
 
-  
+
+}
+.footer {
+  position: relative !important;
+  top: 0vh !important;
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: $black;
+}
 
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 20px;
+}
 
+*::-webkit-scrollbar-track {
+  background: $black;
+}
 
+*::-webkit-scrollbar-thumb {
+  background-color: $silver;
+  border-radius: 10px;
+}

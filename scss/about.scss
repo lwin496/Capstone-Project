@@ -1,5 +1,14 @@
-$black: #040F0F;
-$white: #FFFFFF;
-$silver: #BEBFC4;
-$green: #183C28;
-$yellow: #EEC643;
+$black: #040f0f;
+$white: #ffffff;
+$silver: #bebfc4;
+$green: #183c28;
+$yellow: #eec643;
+
+@import './components/text';
+@import './components/navbar';
+@import './components/footer';
+
+* {
+  margin: 0;
+  padding: 0;
+}
