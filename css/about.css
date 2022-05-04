@@ -145,8 +145,95 @@ body #mailLink :visited {
   color: #f5f5f5;
 }
 
+@font-face {
+  font-family: LouisBold;
+  src: url("../fonts/Louis George Cafe Bold.ttf");
+}
+@font-face {
+  font-family: Louis;
+  src: url("../fonts/Louis George Cafe.ttf");
+}
 * {
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=about.css.map */
+=======
+
+body {
+  background-image: url("../images/liquid-cheese (1).svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow-x: none;
+}
+body .title {
+  position: relative;
+  top: 6rem;
+  font-size: 6rem;
+  font-family: LouisBold;
+  left: 4rem;
+  color: white;
+  width: 40vw;
+  text-shadow: 0 0 10px #121212;
+}
+body .missionTitle {
+  color: #f5f5f5;
+  font-family: LouisBold;
+  font-size: 3rem;
+  position: relative;
+  left: 50vw;
+  text-shadow: 0 0 5px #121212;
+  top: 40vh;
+  width: 40vw;
+}
+body .mission {
+  color: #f5f5f5;
+  font-family: Louis;
+  font-size: 2rem;
+  position: relative;
+  left: 50vw;
+  text-shadow: 0 0 5px #121212;
+  top: 20vh;
+  width: 40vw;
+}
+body .description {
+  color: #f5f5f5;
+  font-family: Louis;
+  font-size: 2rem;
+  position: relative;
+  left: 50vw;
+  text-shadow: 0 0 5px #121212;
+  width: 40vw;
+}
+body .cameraPic {
+  width: 20rem;
+  height: 10rem;
+}
+
+.footer {
+  position: relative !important;
+  top: 53.5vh !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #121212;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bebfc4;
+  border-radius: 10px;
+}/*# sourceMappingURL=about.css.map */
+>>>>>>> 68949d21f81e5460c9aaa4dd1554996eb4efa18a
