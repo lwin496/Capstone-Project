@@ -29,14 +29,14 @@ body {
 }
 .imageContainer{ 
       
-      background-color: $black;
+      background-color: $background;
       float: left;
       height: 100vh;
       width: 35%; 
       h1 { 
             position: relative;
             top: 20vh;
-            left: 10vw;
+            left: 2vw;
             font-family: LouisBold;
             font-size: 3rem;
             color: $white;
@@ -59,7 +59,7 @@ body {
       }
 }
 .inputContainer{ 
-            background-color: $black;
+            background-color: $white;
             float: right;
             height: 100vh;
             width: 65%;
@@ -72,13 +72,12 @@ body {
 .inputs {
      display: flex;
      flex-direction: column;
-     gap: 2.5rem;
+     gap: 1.5rem;
      input{ 
-           margin-left: 10vw;
            font-family: Louis;
            border: none;
            border-bottom: 5px solid $background;
-           background-color: $black;
+           background-color: $white;
            font-size: 2rem;
            color: #BEBFC4;
            
