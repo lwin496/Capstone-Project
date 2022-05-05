@@ -3,6 +3,7 @@ $white: #ffffff;
 $silver: #bebfc4;
 $green: #183c28;
 $yellow: #eec643;
+$background: #f05454;
 
 @import './components/text';
 @import './components/navbar';
@@ -11,6 +12,36 @@ $yellow: #eec643;
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: $silver;
+
+  .title {
+    font-size: 4rem;
+    font-family: Louis;
+    position: relative;
+    left: 37vw;
+    top: 5rem;
+    width: 30vw;
+  }
+
+  .main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 23vh;
+    left: 2.5vw;
+    width: 95vw;
+  }
+
+  img {
+    width: 15rem;
+    height: 10rem;
+    border: 2px solid $background;
+    border-radius: 10px 10px;
+  }
 }
 
 /* ===== Scrollbar CSS ===== */
@@ -30,6 +61,6 @@ $yellow: #eec643;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: $silver;
+  background-color: $background;
   border-radius: 10px;
 }
