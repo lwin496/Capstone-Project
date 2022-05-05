@@ -45,7 +45,7 @@ body{
     font-size: 3rem;
   }
   span{ 
-    color:darkgray;
+    color: $yellow;
   }
 
 }
@@ -54,17 +54,21 @@ body{
   overflow-x: none;
   height: 100vh;
   font-family: Louis;
+  
   img{ 
     height: 40vh;
     width: 40vw;
   }
   .subbox1{ 
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     display: flex;
     gap: 10vw;
     justify-content: center;
-    gap: 1rem;
+  
+  
     p{ 
-      width: 10rem;
+      max-width: 20rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -81,33 +85,67 @@ body{
     
     
     p{ 
-      width: 10rem;
+      max-width: 20rem;
       display: flex;
       justify-content: center;
       align-items: center;
     }
   }
-  .box3{
-    .Louis{ 
-      img{ 
-        height: 10rem;
-        width: 10rem;
-      }
-    }
-    .TJ{ 
-      img{ 
-        height: 10rem;
-        width: 10rem;
-      }
-    }
-  }
-  
+
 }
 
 .box3{ 
-  height: 70vh;
+  height: 80vh;
   background-color: $background;
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+
 }
+
+.Louis{
+  margin-top: 10vh;
+  img{ 
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+  }
+  p{ 
+    max-width: 20rem;
+    text-align: center;
+    font-family: Louis;
+    color: white;
+  }
+  h1{ 
+    text-align: center;
+    font-family: LouisBold;
+    color: white;
+  }
+}
+
+.TJ{
+  margin-top: 10vh;
+  img{ 
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+  }
+  p{ 
+    text-align: center;
+    max-width: 20rem;
+    font-family: Louis;
+    color: white;
+  }
+  h1{ 
+    text-align: center;
+    font-family: LouisBold;
+    color: white;
+  }
+
+}
+
+
+
 //footer
 .footer {
   position: relative !important;

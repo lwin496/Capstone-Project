@@ -183,7 +183,7 @@ body {
 }
 
 .box1 span {
-  color: darkgray;
+  color: #eec643;
 }
 
 .box2 {
@@ -198,14 +198,15 @@ body {
 }
 
 .box2 .subbox1 {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   display: flex;
   gap: 10vw;
   justify-content: center;
-  gap: 1rem;
 }
 
 .box2 .subbox1 p {
-  width: 10rem;
+  max-width: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,25 +220,64 @@ body {
 }
 
 .box2 .subbox2 p {
-  width: 10rem;
+  max-width: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.box2 .box3 .Louis img {
-  height: 10rem;
-  width: 10rem;
-}
-
-.box2 .box3 .TJ img {
-  height: 10rem;
-  width: 10rem;
-}
-
 .box3 {
-  height: 70vh;
+  height: 80vh;
   background-color: #f05454;
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.Louis {
+  margin-top: 10vh;
+}
+
+.Louis img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.Louis p {
+  max-width: 20rem;
+  text-align: center;
+  font-family: Louis;
+  color: white;
+}
+
+.Louis h1 {
+  text-align: center;
+  font-family: LouisBold;
+  color: white;
+}
+
+.TJ {
+  margin-top: 10vh;
+}
+
+.TJ img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.TJ p {
+  text-align: center;
+  max-width: 20rem;
+  font-family: Louis;
+  color: white;
+}
+
+.TJ h1 {
+  text-align: center;
+  font-family: LouisBold;
+  color: white;
 }
 
 .footer {
