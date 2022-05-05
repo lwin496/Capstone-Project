@@ -212,11 +212,10 @@ body {
 .inputs {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 
 .inputs input {
-  margin-left: 10vw;
   font-family: Louis;
   border: none;
   border-bottom: 5px solid #f05454;
