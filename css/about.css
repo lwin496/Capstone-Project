@@ -206,17 +206,14 @@ body {
 }
 
 .box2 .subbox1 p {
-  font-size: 1.75rem;
   max-width: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.box2 .subbox1 h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.box2 .subbox1 .studio1 {
+  box-shadow: 60px -40px #f05454;
 }
 
 .box2 .subbox2 {
@@ -227,10 +224,15 @@ body {
 }
 
 .box2 .subbox2 p {
-  max-width: 20rem;
+  max-width: 25rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.5rem;
+}
+
+.box2 .subbox2 .studio2 {
+  box-shadow: -60px 40px #f05454;
 }
 
 .box3 {
