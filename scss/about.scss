@@ -24,12 +24,11 @@ $background: #f05454;
   padding: 0;
 }
 
-body{ 
+body {
   overflow-x: none;
-  
 }
 
-.box1 { 
+.box1 {
   position: relative;
   height: 60vh;
   background-color: $background;
@@ -38,120 +37,117 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  h1{ 
+  h1 {
     text-align: center;
     color: white;
-    font-family: Akira ;
+    font-family: Akira;
     font-size: 3rem;
   }
-  span{ 
+  span {
     color: $yellow;
   }
-
 }
 
-.box2{ 
+.box2 {
   overflow-x: none;
   height: 100vh;
   font-family: Louis;
-  
-  img{ 
+
+  img {
     height: 40vh;
     width: 40vw;
   }
-  .subbox1{ 
+  .subbox1 {
     margin-top: 10vh;
     margin-bottom: 10vh;
     display: flex;
     gap: 10vw;
     justify-content: center;
-  
-  
-    p{ 
+
+    p {
       max-width: 20rem;
       display: flex;
       justify-content: center;
       align-items: center;
     }
-    
-    
+
+    .studio1 {
+      box-shadow: 60px -40px $background;
+    }
   }
-  .subbox2{ 
-    
+  .subbox2 {
     display: flex;
     gap: 10vw;
     flex-direction: row-reverse;
     justify-content: center;
-    
-    
-    p{ 
-      max-width: 20rem;
+
+    p {
+      max-width: 25rem;
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: 1.5rem;
+    }
+
+    .studio2 {
+      box-shadow: -60px 40px $background;
     }
   }
-
 }
 
-.box3{ 
+.box3 {
   height: 80vh;
   background-color: $background;
   display: flex;
   justify-content: center;
   gap: 20rem;
-
 }
 
-.Louis{
+.Louis {
   margin-top: 10vh;
-  img{ 
+  img {
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
   }
-  p{ 
+  p {
     max-width: 20rem;
     text-align: center;
     font-family: Louis;
     color: white;
   }
-  h1{ 
+  h1 {
     text-align: center;
     font-family: LouisBold;
     color: white;
   }
 }
 
-.TJ{
+.TJ {
   margin-top: 10vh;
-  img{ 
+  img {
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
   }
-  p{ 
+  p {
     text-align: center;
     max-width: 20rem;
     font-family: Louis;
     color: white;
   }
-  h1{ 
+  h1 {
     text-align: center;
     font-family: LouisBold;
     color: white;
   }
-
 }
-
-
 
 //footer
 .footer {
   position: relative !important;
   top: 0vh !important;
 }
-
 
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
