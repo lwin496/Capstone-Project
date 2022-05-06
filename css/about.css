@@ -206,7 +206,14 @@ body {
 }
 
 .box2 .subbox1 p {
+  font-size: 1.75rem;
   max-width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 .subbox1 h1 {
   display: flex;
   justify-content: center;
   align-items: center;
