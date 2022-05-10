@@ -17,6 +17,21 @@ $background: #f05454;
 body {
   background-color: $silver;
 
+  .hundredTitle {
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+
+  .threeHundredTitle {
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+
+  .fiveHundredTitle {
+    font-size: 2rem;
+    width: 22rem;
+  }
+
   .title {
     font-size: 4rem;
     font-family: Louis;
@@ -32,8 +47,9 @@ body {
     flex-direction: row;
     justify-content: space-around;
     top: 23vh;
-    left: 2.5vw;
-    width: 95vw;
+    left: 8vw;
+    width: 90vw;
+    font-family: LouisBold;
   }
 
   img {
