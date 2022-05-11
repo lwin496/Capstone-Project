@@ -151,6 +151,7 @@ body #mailLink :visited {
 }
 
 body {
+<<<<<<< HEAD
   background-color: #bebfc4;
 }
 
@@ -167,6 +168,9 @@ body .threeHundredTitle {
 body .fiveHundredTitle {
   font-size: 2rem;
   width: 22rem;
+=======
+  background-color: white;
+>>>>>>> 6ef07da575b3751b1346322bcbfc138438a83bec
 }
 
 body .title {
@@ -183,19 +187,34 @@ body .main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  top: 23vh;
-  left: 8vw;
+  top: 20vh;
+  left: 5vw;
   width: 90vw;
   font-family: LouisBold;
 }
+<<<<<<< HEAD
 
 body img {
   width: 15rem;
   height: 10rem;
+=======
+body .pack1 {
+>>>>>>> 6ef07da575b3751b1346322bcbfc138438a83bec
   border: 2px solid #f05454;
-  border-radius: 10px 10px;
 }
-
+body .pack2 {
+  border: 2px solid #f05454;
+}
+body .pack3 {
+  border: 2px solid #f05454;
+}
+body .para {
+  font-size: 1.5rem;
+}
+body .price {
+  font-size: 1.5rem;
+  border: 2px solid black;
+}
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {

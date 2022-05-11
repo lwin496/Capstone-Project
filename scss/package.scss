@@ -15,22 +15,7 @@ $background: #f05454;
 }
 
 body {
-  background-color: $silver;
-
-  .hundredTitle {
-    margin-left: 3rem;
-    font-size: 2rem;
-  }
-
-  .threeHundredTitle {
-    margin-left: 3rem;
-    font-size: 2rem;
-  }
-
-  .fiveHundredTitle {
-    font-size: 2rem;
-    width: 22rem;
-  }
+  background-color: white;
 
   .title {
     font-size: 4rem;
@@ -46,17 +31,37 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    top: 23vh;
-    left: 8vw;
+    top: 20vh;
+    left: 5vw;
     width: 90vw;
     font-family: LouisBold;
   }
 
-  img {
-    width: 15rem;
-    height: 10rem;
+  .pack1 {
     border: 2px solid $background;
-    border-radius: 10px 10px;
+  }
+
+  .pack2 {
+    border: 2px solid $background;
+  }
+
+  .pack3 {
+    border: 2px solid $background;
+  }
+
+  .para {
+    font-size: 1.5rem;
+  }
+
+  .price {
+    font-size: 1.5rem;
+    border: 2px solid black;
+  }
+
+  .feature {
+    rice {
+    font-size: 1.5rem;
+    border: 2px solid black;
   }
 }
 
