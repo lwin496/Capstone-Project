@@ -52,13 +52,11 @@ body {
             left: 10vw;
       }
       img { 
-          position: relative;
-          left: 10vw;
-          top: 30vh;
-          width: 20rem;
-          
-          
+        position: relative;
+        top: 20vh ;
       }
+
+     
 }
 .inputContainer{ 
             background-color: $white;
@@ -68,13 +66,28 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-       
+       button{ 
+         width: 50%;
+         background-color: $background;
+         font-family: Louis;
+         border: none;
+         font-size: 2rem;
+         color: white;
+         padding: .5rem 0;
+         transition: filter .3s ease;
+         &:hover{ 
+           cursor: pointer;
+           filter:brightness(.75);
+         }
+         
+       }
 }
 
 .inputs {
      display: flex;
      flex-direction: column;
      gap: 1.5rem;
+     align-items: flex-end;
      input{ 
            font-family: Louis;
            border: none;
