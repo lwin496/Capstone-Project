@@ -15,6 +15,10 @@
   src: url("../fonts/Louis George Cafe.ttf");
 }
 @font-face {
+  font-family: "Bebas Neue", cursive;
+  src: url("");
+}
+@font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
@@ -133,7 +137,10 @@ body #mailLink :visited {
 }
 
 body {
-  background-color: white;
+  background-color: #f5f5f5;
+}
+body sup {
+  font-size: 3rem;
 }
 body .title {
   font-size: 4rem;
@@ -153,22 +160,46 @@ body .main {
   width: 90vw;
   font-family: LouisBold;
 }
-body .pack1 {
-  border: 2px solid #f05454;
-}
-body .pack2 {
-  border: 2px solid #f05454;
-}
-body .pack3 {
-  border: 2px solid #f05454;
-}
 body .para {
   font-size: 1.5rem;
 }
 body .price {
-  font-size: 1.5rem;
-  border: 2px solid black;
+  font-size: 4rem;
+  border: 3px solid #121212;
+  height: 6rem;
+  text-align: center;
+  background-color: #f05454;
+  font-family: "Bebas Neue", cursive;
 }
+body .feature {
+  font-size: 1.5rem;
+  border: 3px solid #121212;
+  width: 20rem;
+  height: 2rem;
+  background-color: #f05454;
+}
+body .time {
+  font-size: 1.5rem;
+  border: 3px solid #121212;
+  width: 20rem;
+  height: 2rem;
+  background-color: #f05454;
+}
+body .description {
+  font-size: 1.5rem;
+  border: 3px solid #121212;
+  width: 20rem;
+  background-color: #f05454;
+}
+body .title1 {
+  font-size: 1.5rem;
+  border: 3px solid #121212;
+  width: 20rem;
+  text-align: center;
+  height: 2rem;
+  background-color: #bebfc4;
+}
+
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {

@@ -1,6 +1,6 @@
 $black: #040f0f;
 $white: #ffffff;
-$silver: #bebfc4;
+$black: #bebfc4;
 $green: #183c28;
 $yellow: #eec643;
 $background: #f05454;
@@ -15,8 +15,11 @@ $background: #f05454;
 }
 
 body {
-  background-color: white;
+  background-color: $white;
 
+  sup {
+    font-size: 3rem;
+  }
   .title {
     font-size: 4rem;
     font-family: Louis;
@@ -37,31 +40,49 @@ body {
     font-family: LouisBold;
   }
 
-  .pack1 {
-    border: 2px solid $background;
-  }
-
-  .pack2 {
-    border: 2px solid $background;
-  }
-
-  .pack3 {
-    border: 2px solid $background;
-  }
-
   .para {
     font-size: 1.5rem;
   }
 
   .price {
-    font-size: 1.5rem;
-    border: 2px solid black;
+    font-size: 4rem;
+    border: 3px solid $black;
+    height: 6rem;
+    text-align: center;
+    background-color: $background;
+    font-family: 'Bebas Neue', cursive;
   }
 
   .feature {
-    rice {
     font-size: 1.5rem;
-    border: 2px solid black;
+    border: 3px solid $black;
+    width: 20rem;
+    height: 2rem;
+    background-color: $background;
+  }
+
+  .time {
+    font-size: 1.5rem;
+    border: 3px solid $black;
+    width: 20rem;
+    height: 2rem;
+    background-color: $background;
+  }
+
+  .description {
+    font-size: 1.5rem;
+    border: 3px solid $black;
+    width: 20rem;
+    background-color: $background;
+  }
+
+  .title1 {
+    font-size: 1.5rem;
+    border: 3px solid $black;
+    width: 20rem;
+    text-align: center;
+    height: 2rem;
+    background-color: $silver;
   }
 }
 
