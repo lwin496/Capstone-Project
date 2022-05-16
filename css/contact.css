@@ -228,6 +228,7 @@ body {
 }
 
 .inputs {
+  max-width: fit-content;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -241,6 +242,19 @@ body {
   background-color: #f5f5f5;
   font-size: 2rem;
   color: #BEBFC4;
+}
+
+.inputs a {
+  text-decoration: none;
+}
+
+.inputs img {
+  height: 100px;
+}
+
+.inputs .iconcontainer {
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
