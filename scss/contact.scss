@@ -31,12 +31,19 @@ body {
       
       background-color: $background;
       float: left;
-      height: 100vh;
+      height: 110vh;
       width: 35%; 
-      h1 { 
-            position: relative;
-            top: 15vh;
-            left: 2vw;
+      img{ 
+        margin-top: -8rem;
+        width: 25rem;
+        padding-left: 7rem;
+      }
+      h1 {  
+            margin-top: 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
             font-family: LouisBold;
             font-size: 3rem;
             color: $white;
@@ -63,6 +70,7 @@ body {
      
 }
 .inputContainer{ 
+            margin-top: 10vh;
             background-color: $white;
             float: right;
             height: 100vh;
@@ -99,7 +107,7 @@ body {
            border-bottom: 5px solid $background;
            background-color: $white;
            font-size: 2rem;
-           color: #BEBFC4;
+           color: $black;
            
      }
      a{ 
@@ -109,8 +117,7 @@ body {
        height: 100px;
      }
      .iconcontainer{ 
-       display: flex;
-       justify-content: center;
+       margin: auto;
      }
 
 }
