@@ -18,7 +18,7 @@ body {
   background-color: $white;
 
   sup {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .title {
     font-size: 4rem;
@@ -29,12 +29,24 @@ body {
     width: 30vw;
   }
 
+  .choose {
+    width: 19rem;
+    height: 2.5rem;
+    font-size: 1.75rem;
+    background-color: $background;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    padding-top: 0.2rem;
+    margin-top: 1rem;
+  }
+
   .main {
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    top: 20vh;
+    top: 18vh;
     left: 5vw;
     width: 90vw;
     font-family: LouisBold;
@@ -44,13 +56,35 @@ body {
     font-size: 1.5rem;
   }
 
+  .pack1 {
+    transition: transform 0.1s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .pack2 {
+    transition: transform 0.1s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .pack3 {
+    transition: transform 0.1s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
   .price {
     font-size: 4rem;
     border: 3px solid $black;
     height: 6rem;
     text-align: center;
-    background-color: $background;
-    font-family: 'Bebas Neue', cursive;
+    background-color: $silver;
+    font-family: fancyPrice;
+    padding-top: 1rem;
   }
 
   .feature {
@@ -58,7 +92,8 @@ body {
     border: 3px solid $black;
     width: 20rem;
     height: 2rem;
-    background-color: $background;
+    background-color: $silver;
+    padding: 0.5rem;
   }
 
   .time {
@@ -66,14 +101,19 @@ body {
     border: 3px solid $black;
     width: 20rem;
     height: 2rem;
-    background-color: $background;
+    background-color: $silver;
+    padding: 0.5rem;
   }
 
   .description {
     font-size: 1.5rem;
     border: 3px solid $black;
-    width: 20rem;
-    background-color: $background;
+    width: 21.4rem;
+    background-color: $silver;
+    border-bottom-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
   }
 
   .title1 {
@@ -82,7 +122,14 @@ body {
     width: 20rem;
     text-align: center;
     height: 2rem;
-    background-color: $silver;
+    background-color: $background;
+    padding: 0.5rem;
+  }
+
+  span {
+    background-color: $background;
+    padding: 0.1rem;
+    border-radius: 0.75rem;
   }
 }
 

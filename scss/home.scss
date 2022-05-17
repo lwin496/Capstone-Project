@@ -124,3 +124,18 @@ body {
   background-color: $white;
   border-radius: 10px;
 }
+
+// MOBILE SCALLING 
+@media only screen and (max-width:600px) {
+  #navbar{ 
+    display: none;
+  }
+  .hambutton{ 
+    position: relative;
+    left: 80vw;
+    width: 6rem;
+    top: 3vh;
+  }
+}
+
+// WIDESCREEN SCALLING 
