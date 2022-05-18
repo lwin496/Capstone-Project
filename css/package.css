@@ -2,26 +2,32 @@
   font-family: Akira;
   src: url("../fonts/Akira Expanded Demo.otf");
 }
+
 @font-face {
   font-family: LouisBold;
   src: url("../fonts/Louis George Cafe Bold.ttf");
 }
+
 @font-face {
   font-family: LouisLight;
   src: url("../fonts/Louis George Cafe Light.ttf.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 @font-face {
   font-family: fancyPrice;
   src: url("/fonts/Barlow-Bold.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -41,14 +47,16 @@
   width: 50rem;
   box-shadow: 0 10px 5px -5px #F05454;
 }
+
 #navbar a {
   font-family: Louis;
   color: #F5F5F5;
   text-decoration: none;
   position: relative;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: #121212;
   position: absolute;
   left: 0;
@@ -56,27 +64,30 @@
   width: 100%;
   height: 0px;
   z-index: -1;
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
+
 #navbar a:hover::before {
   bottom: 0;
   height: 100%;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: rgba(240, 84, 84, 0.75);
   position: absolute;
   left: 0;
   bottom: 0px;
   width: 100%;
   z-index: -1;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 body .footer {
   position: relative;
   top: 70vh;
@@ -90,31 +101,37 @@ body .footer {
   justify-content: space-evenly;
   text-align: center;
 }
+
 body .produced {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .contact {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: -4rem;
 }
+
 body .address {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .big {
   position: absolute;
   font-size: 1.5rem;
   top: 2rem;
 }
+
 body .logo {
   margin-top: 2rem;
   height: 13vh;
   width: 16vw;
 }
+
 body .media {
   position: relative;
   width: 2rem;
@@ -122,11 +139,13 @@ body .media {
   top: 2rem;
   right: 9rem;
 }
+
 body #mailLink {
   position: relative;
   color: #f5f5f5;
   bottom: 1.25rem;
 }
+
 body #mailLink :visited {
   color: #f5f5f5;
 }
@@ -139,9 +158,11 @@ body #mailLink :visited {
 body {
   background-color: #f5f5f5;
 }
+
 body sup {
   font-size: 2.5rem;
 }
+
 body .title {
   font-size: 4rem;
   font-family: Louis;
@@ -150,6 +171,7 @@ body .title {
   top: 5rem;
   width: 30vw;
 }
+
 body .choose {
   width: 19rem;
   height: 2.5rem;
@@ -161,6 +183,7 @@ body .choose {
   padding-top: 0.2rem;
   margin-top: 1rem;
 }
+
 body .main {
   position: relative;
   display: flex;
@@ -171,27 +194,35 @@ body .main {
   width: 90vw;
   font-family: LouisBold;
 }
+
 body .para {
   font-size: 1.5rem;
 }
+
 body .pack1 {
   transition: transform 0.1s;
 }
+
 body .pack1:hover {
   transform: scale(1.1);
 }
+
 body .pack2 {
   transition: transform 0.1s;
 }
+
 body .pack2:hover {
   transform: scale(1.1);
 }
+
 body .pack3 {
   transition: transform 0.1s;
 }
+
 body .pack3:hover {
   transform: scale(1.1);
 }
+
 body .price {
   font-size: 4rem;
   border: 3px solid #121212;
@@ -201,6 +232,7 @@ body .price {
   font-family: fancyPrice;
   padding-top: 1rem;
 }
+
 body .feature {
   font-size: 1.5rem;
   border: 3px solid #121212;
@@ -209,6 +241,7 @@ body .feature {
   background-color: #bebfc4;
   padding: 0.5rem;
 }
+
 body .time {
   font-size: 1.5rem;
   border: 3px solid #121212;
@@ -217,6 +250,7 @@ body .time {
   background-color: #bebfc4;
   padding: 0.5rem;
 }
+
 body .description {
   font-size: 1.5rem;
   border: 3px solid #121212;
@@ -227,6 +261,7 @@ body .description {
   padding: 0.5rem;
   box-sizing: border-box;
 }
+
 body .title1 {
   font-size: 1.5rem;
   border: 3px solid #121212;
@@ -236,6 +271,7 @@ body .title1 {
   background-color: #f05454;
   padding: 0.5rem;
 }
+
 body span {
   background-color: #f05454;
   padding: 0.1rem;
@@ -261,4 +297,34 @@ body span {
 *::-webkit-scrollbar-thumb {
   background-color: #f05454;
   border-radius: 10px;
-}/*# sourceMappingURL=package.css.map */
+}
+
+@media only screen and (min-width: 2000px) {
+  #navbar {
+    width: 60vw;
+    height: 4vh;
+    font-size: 3rem;
+  }
+  .title {
+    font-size: 7vh !important;
+    text-align: center;
+    margin-top: 5vh;
+  }
+  .main {
+    width: 90vw;
+    height: 60vh;
+  }
+  .prices {
+    width: 30vw;
+  }
+  .title1 {
+    width: 30vw;
+  }
+  .services {
+    width: 30vw;
+  }
+  .description {
+    width: 30vw;
+  }
+}
+/*# sourceMappingURL=package.css.map */
