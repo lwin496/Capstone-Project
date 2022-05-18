@@ -28,6 +28,247 @@ body {
   overflow-x: none;
 }
 
+//wide screen scaling
+@media screen and (min-width: 2000px) {
+  #navbar {
+    width: 60vw;
+    height: 4vh;
+    font-size: 3rem;
+  }
+
+  .box1 {
+    h1 {
+      font-size: 3vw !important;
+    }
+  }
+
+  .box2 {
+    .subbox1 {
+      p {
+        font-size: 2.5vh !important;
+        max-width: 30vh !important;
+      }
+    }
+
+    .subbox2 {
+      p {
+        font-size: 2.5vh !important;
+        max-width: 40vh !important;
+      }
+    }
+  }
+
+  .box3 {
+    height: 65vh !important;
+    .Louis {
+      width: 20vw;
+      h1 {
+        margin-right: 3vw;
+      }
+      p {
+        position: absolute;
+        right: 55.75vw;
+        font-size: 1.2vw;
+        max-width: 24vw;
+        text-align: center;
+      }
+
+      img {
+        width: 17vw;
+        height: 30vh;
+      }
+    }
+
+    .TJ {
+      width: 20vw;
+
+      h1 {
+        margin-right: 3vw;
+      }
+
+      p {
+        position: absolute;
+        left: 52.75vw;
+        font-size: 1.2vw;
+        max-width: 24vw;
+        text-align: center;
+      }
+
+      img {
+        width: 17vw;
+        height: 30vh;
+      }
+    }
+  }
+
+  .footer {
+    .logo {
+      width: 20vw;
+      height: 15vh !important;
+      margin-right: 4vw;
+    }
+
+    .produced {
+      width: 18vw;
+      height: 10vh !important;
+      font-size: 1.5vw;
+      margin-top: 9vh;
+      .big {
+        width: 19vw;
+        height: 15vh !important;
+        font-size: 1.5vw;
+        margin-top: 1vh;
+      }
+    }
+
+    .contact {
+      width: 18vw;
+      height: 10vh !important;
+      font-size: 1.5vw;
+      margin-top: 10vh;
+
+      .media {
+        width: 3vw;
+        height: 4vh;
+        margin-left: 0.5vw;
+        left: 0.75vw;
+      }
+
+      .big {
+        width: 19vw;
+        height: 15vh !important;
+        font-size: 1.5vw;
+        margin-top: 1vh;
+      }
+    }
+
+    .address {
+      width: 18vw;
+      height: 10vh !important;
+      font-size: 1.5vw;
+      margin-top: 9vh;
+
+      .big {
+        width: 19vw;
+        height: 15vh !important;
+        font-size: 1.5vw;
+        margin-top: 1vh;
+      }
+    }
+  }
+}
+
+//tablet screen scaling
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  #navbar {
+    width: 70vw;
+    height: 3vh;
+    font-size: 3vw;
+  }
+
+  .box1 {
+    height: 50vh !important;
+    h1 {
+      margin-top: 5vh;
+    }
+  }
+
+  .box2 {
+    .subbox1 {
+      gap: 0;
+
+      .studio1 {
+        width: 65vw;
+        box-shadow: 20px -20px #f05454;
+      }
+      p {
+        max-width: 20vw !important;
+        margin-right: 0vw;
+      }
+    }
+    .subbox2 {
+      gap: 0;
+      img {
+        width: 65vw;
+        box-shadow: -30px 25px #f05454 !important;
+      }
+      p {
+        width: 20vw;
+        margin-right: 1vw;
+      }
+    }
+  }
+
+  .box3 {
+    gap: 10vw !important;
+    .Louis {
+      margin-left: 50vw;
+      p {
+        font-size: 3vw;
+      }
+      h1 {
+        font-size: 4vw;
+      }
+      img {
+        width: 35vw;
+        height: 25vh;
+      }
+    }
+    .TJ {
+      margin-right: 50vw;
+      p {
+        font-size: 3vw;
+      }
+      h1 {
+        font-size: 4vw;
+      }
+      img {
+        width: 35vw;
+        height: 25vh;
+      }
+    }
+  }
+  .footer {
+    height: 15vh !important;
+    .logo {
+      width: 30vw;
+      height: 12vh;
+      margin-bottom: 1vh;
+    }
+    .produced {
+      width: 20vw;
+      margin: 0;
+      margin-top: 8vh;
+      .big {
+        font-size: 2.5vw;
+        width: 20vw;
+      }
+    }
+    .contact {
+      width: 20vw;
+      margin: 0;
+      margin-top: 8vh;
+      .big {
+        font-size: 2.5vw;
+        width: 20vw;
+      }
+
+      .media {
+        left: 1vw;
+        top: 0;
+      }
+    }
+    .address {
+      width: 20vw;
+      margin: 0;
+      margin-top: 6vh;
+      .big {
+        font-size: 2.5vw;
+        width: 20vw;
+      }
+    }
+  }
+}
 .box1 {
   position: relative;
   height: 60vh;

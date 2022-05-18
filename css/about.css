@@ -169,6 +169,213 @@ body {
   overflow-x: none;
 }
 
+@media screen and (min-width: 2000px) {
+  #navbar {
+    width: 60vw;
+    height: 4vh;
+    font-size: 3rem;
+  }
+  .box1 h1 {
+    font-size: 3vw !important;
+  }
+  .box2 .subbox1 p {
+    font-size: 2.5vh !important;
+    max-width: 30vh !important;
+  }
+  .box2 .subbox2 p {
+    font-size: 2.5vh !important;
+    max-width: 40vh !important;
+  }
+  .box3 {
+    height: 65vh !important;
+  }
+  .box3 .Louis {
+    width: 20vw;
+  }
+  .box3 .Louis h1 {
+    margin-right: 3vw;
+  }
+  .box3 .Louis p {
+    position: absolute;
+    right: 55.75vw;
+    font-size: 1.2vw;
+    max-width: 24vw;
+    text-align: center;
+  }
+  .box3 .Louis img {
+    width: 17vw;
+    height: 30vh;
+  }
+  .box3 .TJ {
+    width: 20vw;
+  }
+  .box3 .TJ h1 {
+    margin-right: 3vw;
+  }
+  .box3 .TJ p {
+    position: absolute;
+    left: 52.75vw;
+    font-size: 1.2vw;
+    max-width: 24vw;
+    text-align: center;
+  }
+  .box3 .TJ img {
+    width: 17vw;
+    height: 30vh;
+  }
+  .footer .logo {
+    width: 20vw;
+    height: 15vh !important;
+    margin-right: 4vw;
+  }
+  .footer .produced {
+    width: 18vw;
+    height: 10vh !important;
+    font-size: 1.5vw;
+    margin-top: 9vh;
+  }
+  .footer .produced .big {
+    width: 19vw;
+    height: 15vh !important;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+  }
+  .footer .contact {
+    width: 18vw;
+    height: 10vh !important;
+    font-size: 1.5vw;
+    margin-top: 10vh;
+  }
+  .footer .contact .media {
+    width: 3vw;
+    height: 4vh;
+    margin-left: 0.5vw;
+    left: 0.75vw;
+  }
+  .footer .contact .big {
+    width: 19vw;
+    height: 15vh !important;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+  }
+  .footer .address {
+    width: 18vw;
+    height: 10vh !important;
+    font-size: 1.5vw;
+    margin-top: 9vh;
+  }
+  .footer .address .big {
+    width: 19vw;
+    height: 15vh !important;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  #navbar {
+    width: 70vw;
+    height: 3vh;
+    font-size: 3vw;
+  }
+  .box1 {
+    height: 50vh !important;
+  }
+  .box1 h1 {
+    margin-top: 5vh;
+  }
+  .box2 .subbox1 {
+    gap: 0;
+  }
+  .box2 .subbox1 .studio1 {
+    width: 65vw;
+    box-shadow: 20px -20px #f05454;
+  }
+  .box2 .subbox1 p {
+    max-width: 20vw !important;
+    margin-right: 0vw;
+  }
+  .box2 .subbox2 {
+    gap: 0;
+  }
+  .box2 .subbox2 img {
+    width: 65vw;
+    box-shadow: -30px 25px #f05454 !important;
+  }
+  .box2 .subbox2 p {
+    width: 20vw;
+    margin-right: 1vw;
+  }
+  .box3 {
+    gap: 10vw !important;
+  }
+  .box3 .Louis {
+    margin-left: 50vw;
+  }
+  .box3 .Louis p {
+    font-size: 3vw;
+  }
+  .box3 .Louis h1 {
+    font-size: 4vw;
+  }
+  .box3 .Louis img {
+    width: 35vw;
+    height: 25vh;
+  }
+  .box3 .TJ {
+    margin-right: 50vw;
+  }
+  .box3 .TJ p {
+    font-size: 3vw;
+  }
+  .box3 .TJ h1 {
+    font-size: 4vw;
+  }
+  .box3 .TJ img {
+    width: 35vw;
+    height: 25vh;
+  }
+  .footer {
+    height: 15vh !important;
+  }
+  .footer .logo {
+    width: 30vw;
+    height: 12vh;
+    margin-bottom: 1vh;
+  }
+  .footer .produced {
+    width: 20vw;
+    margin: 0;
+    margin-top: 8vh;
+  }
+  .footer .produced .big {
+    font-size: 2.5vw;
+    width: 20vw;
+  }
+  .footer .contact {
+    width: 20vw;
+    margin: 0;
+    margin-top: 8vh;
+  }
+  .footer .contact .big {
+    font-size: 2.5vw;
+    width: 20vw;
+  }
+  .footer .contact .media {
+    left: 1vw;
+    top: 0;
+  }
+  .footer .address {
+    width: 20vw;
+    margin: 0;
+    margin-top: 6vh;
+  }
+  .footer .address .big {
+    font-size: 2.5vw;
+    width: 20vw;
+  }
+}
+
 .box1 {
   position: relative;
   height: 60vh;

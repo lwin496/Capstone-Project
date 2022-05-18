@@ -192,7 +192,7 @@ body .main {
   top: 18vh;
   left: 5vw;
   width: 90vw;
-  font-family: LouisBold;
+  font-family: Louis;
 }
 
 body .para {
@@ -231,6 +231,7 @@ body .price {
   background-color: #bebfc4;
   font-family: fancyPrice;
   padding-top: 1rem;
+  border: none;
 }
 
 body .feature {
@@ -240,6 +241,7 @@ body .feature {
   height: 2rem;
   background-color: #bebfc4;
   padding: 0.5rem;
+  border: none;
 }
 
 body .time {
@@ -249,27 +251,30 @@ body .time {
   height: 2rem;
   background-color: #bebfc4;
   padding: 0.5rem;
+  border: none;
 }
 
 body .description {
   font-size: 1.5rem;
   border: 3px solid #121212;
-  width: 21.4rem;
+  width: 20rem;
   background-color: #bebfc4;
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
   padding: 0.5rem;
-  box-sizing: border-box;
 }
 
 body .title1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   border: 3px solid #121212;
   width: 20rem;
   text-align: center;
   height: 2rem;
   background-color: #f05454;
   padding: 0.5rem;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  border: none;
 }
 
 body span {
