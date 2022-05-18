@@ -15,6 +15,18 @@
             <a href="packagespage.html">PACKAGES</a>
             <a href="contactpage.html">CONTACT</a>
       </nav>
+      <img src="./images/burger.svg" onclick="openNav()" class="hambutton" id="hambutton">
+
+      <div class="mobilescreen" id="mobilescreen">
+        <img src="./images/burger.svg" onclick="closeNav()" id="hambuttonclose">
+        <div class="mobilecontent">
+          <a href="homepage.html">HOME</a>
+          <a href="aboutpage.html">ABOUT</a>
+          <a href="packagespage.html">PACKAGES</a>
+          <a href="contactpage.html">CONTACT</a>
+        </div>
+      </div>
+
 
       <div class="title">Our Packages</div>
       <div class="main">
@@ -29,7 +41,7 @@
                   </div>
             </div>
             <div class="pack2">
-                  <h1 class="title1" id="type2"></h1>
+                  <h1 class="title1" id="type2"></h1> 
                   <p class="price" id="price2"><sup>$</sup></p>
                   <p class="feature">Services: <span id="service2"></span></p>
                   <p class="time">Time: <span id="time2"></span></p>
@@ -68,6 +80,7 @@
                   <div class="big">Our Address:</div>
             </div>
       </div>
-      <script src="/js/packages.js"></script>
+      <script src="./js/index.js"></script>
+      <script src="./js/packages.js"></script>
 </body>
 </html>
