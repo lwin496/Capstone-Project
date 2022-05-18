@@ -167,21 +167,42 @@ body .title {
   font-size: 4rem;
   font-family: Louis;
   position: relative;
-  left: 37vw;
+  display: flex;
+  justify-content: center;
   top: 5rem;
-  width: 30vw;
 }
 
 body .choose {
-  width: 19rem;
-  height: 2.5rem;
-  font-size: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f05454;
-  border-radius: 1rem;
-  margin-left: 1rem;
-  text-align: center;
-  padding-top: 0.2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding-bottom: 2rem;
+}
+
+body .choose button {
+  font-family: LouisBold;
+  background-color: #121212;
+  border-radius: 2rem;
   margin-top: 1rem;
+  border: none;
+  color: white;
+  padding: 1rem 2rem 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+body .choose button:hover {
+  cursor: pointer;
+  width: 12rem;
+}
+
+body .choose button:active {
+  color: #eec643;
 }
 
 body .main {
@@ -200,7 +221,9 @@ body .para {
 }
 
 body .pack1 {
+  border-radius: 2rem;
   transition: transform 0.1s;
+  box-shadow: 0px 0px 90px 0px #000;
 }
 
 body .pack1:hover {
@@ -208,7 +231,9 @@ body .pack1:hover {
 }
 
 body .pack2 {
+  border-radius: 2rem;
   transition: transform 0.1s;
+  box-shadow: 0px 0px 90px 0px #000;
 }
 
 body .pack2:hover {
@@ -216,7 +241,9 @@ body .pack2:hover {
 }
 
 body .pack3 {
+  border-radius: 2rem;
   transition: transform 0.1s;
+  box-shadow: 0px 0px 90px 0px #000;
 }
 
 body .pack3:hover {
@@ -224,47 +251,60 @@ body .pack3:hover {
 }
 
 body .price {
+  margin: auto;
   font-size: 4rem;
-  border: 3px solid #121212;
   height: 6rem;
   text-align: center;
-  background-color: #bebfc4;
+  background-color: #f5f5f5;
   font-family: fancyPrice;
   padding-top: 1rem;
-  border: none;
+  border-bottom: 1px solid #121212;
 }
 
 body .feature {
+  margin: auto;
   font-size: 1.5rem;
   border: 3px solid #121212;
   width: 20rem;
   height: 2rem;
-  background-color: #bebfc4;
-  padding: 0.5rem;
+  background-color: #f5f5f5;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   border: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #121212;
 }
 
 body .time {
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   font-size: 1.5rem;
   border: 3px solid #121212;
   width: 20rem;
   height: 2rem;
-  background-color: #bebfc4;
-  padding: 0.5rem;
+  background-color: #f5f5f5;
   border: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #121212;
 }
 
 body .description {
+  margin: auto;
   font-size: 1.5rem;
-  border: 3px solid #121212;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   width: 20rem;
-  background-color: #bebfc4;
+  background-color: #f5f5f5;
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
-  padding: 0.5rem;
 }
 
 body .title1 {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   font-size: 2rem;
   border: 3px solid #121212;
   width: 20rem;
