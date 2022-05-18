@@ -1,32 +1,48 @@
 let packages = [{ 
       "type": "BASIC",
-      "price" : "99",
+      "price" : "99USD",
       "services": "Editing",
       "time" : "24 Hours",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, aliquam."
+      "description": "We will edit the footage that you have given to us! For a small fee."
 },
 
  { 
       "type": "STANDARD",
-      "price" : "299",
+      "price" : "299USD",
       "services": "filming",
       "time" : "3-5 Days",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, aliquam."
+      "description": "We will film professional grade footage for you. "
       
 },
 { 
       "type": "PRO",
-      "price" : "499",
+      "price" : "499USD",
       "services": "Editing and Filming",
       "time" : "8 Days",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, aliquam."
+      "description": "Combo of film and editing to bring you pro grade video."
 }]
 
-let type1 = packages[0].type; 
-document.getElementById("type1").innerHTML = type1 
-let price1 = packages[0].price;
-console.log(price1)
-document.getElementById("price1").innerHTML = price1
+
+document.getElementById("type1").innerHTML =  packages[0].type; 
+document.getElementById("price1").innerHTML = packages[0].price;
+document.getElementById("service1").innerHTML = packages[0].services;
+document.getElementById("time1").innerHTML = packages[0].time;
+document.getElementById("description1").innerHTML = 'Description: ' + packages[0].description;
+
+
+document.getElementById("type2").innerHTML =  packages[1].type; 
+document.getElementById("price2").innerHTML = packages[1].price;
+document.getElementById("service2").innerHTML = packages[1].services;
+document.getElementById("time2").innerHTML = packages[1].time;
+document.getElementById("description2").innerHTML = 'Description: ' +  packages[1].description;
+
+document.getElementById("type3").innerHTML =  packages[2].type; 
+document.getElementById("price3").innerHTML = packages[2].price;
+document.getElementById("service3").innerHTML = packages[2].services;
+document.getElementById("time3").innerHTML = packages[2].time;
+document.getElementById("description3").innerHTML = 'Description: ' + packages[2].description;
+
+
 
 
 
