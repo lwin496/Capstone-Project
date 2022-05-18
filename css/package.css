@@ -242,6 +242,10 @@ body span {
   border-radius: 0.75rem;
 }
 
+.footer {
+  top: 40vh !important;
+}
+
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {

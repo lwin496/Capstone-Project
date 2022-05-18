@@ -186,8 +186,7 @@ body {
   position: relative;
   top: 20vh;
   height: 50%;
-  top: 20vh;
-  left: 1vw;
+  right: 3vw;
 }
 
 .inputContainer {
@@ -245,6 +244,41 @@ body {
   top: 0vh !important;
 }
 
+@media only screen and (min-width: 2000px) {
+  #navbar {
+    width: 60vw;
+    height: 4vh;
+    font-size: 2.75rem;
+    box-shadow: 0 15px 5px -5px #f05454;
+  }
+
+  .imageContainer img {
+    width: 30vw;
+    position: relative;
+    top: 50vh;
+  }
+  .imageContainer h1 {
+    position: absolute;
+    font-size: 3vw;
+    top: 13vh;
+    left: 3vw;
+  }
+
+  .inputContainer img {
+    width: 6vw;
+    height: 10vh;
+  }
+  .inputContainer button {
+    width: 25vw;
+    height: 6vh;
+    font-size: 3rem;
+  }
+  .inputContainer .inputs input {
+    width: 30vw;
+    height: 10vh;
+    font-size: 3.5rem;
+  }
+}
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
