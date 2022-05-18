@@ -68,10 +68,13 @@ $background: #F05454;
 }
 // mobile navbar TJ DONT TOUCH
 @media  screen and (min-width:1100px) {
+
       #mobilescreen{ 
+            position: fixed;
             visibility: hidden;
       }
       #hambutton{ 
+            position: fixed;
             visibility: hidden;
       }
 }
