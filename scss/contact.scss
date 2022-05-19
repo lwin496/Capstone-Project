@@ -160,7 +160,72 @@ body {
       }
     }
   }
+  .footer {
+    .logo {
+      width: 20vw;
+      height: 15vh !important;
+      margin-right: 4vw;
+    }
+
+    .produced {
+      width: 18vw;
+      height: 10vh !important;
+      font-size: 1.5vw;
+      margin-top: 9vh;
+      .big {
+        width: 19vw;
+        height: 15vh !important;
+        font-size: 1.5vw;
+        margin-top: 1vh;
+      }
+    }
+
+    .contact {
+      width: 18vw;
+      height: 10vh !important;
+      font-size: 1.5vw;
+      margin-top: 10vh;
+
+      .media {
+        width: 3vw;
+        height: 4vh;
+        margin-left: 0.5vw;
+        left: 0.75vw;
+      }
+
+      .big {
+        width: 19vw;
+        height: 15vh !important;
+        font-size: 1.5vw;
+        margin-top: 1vh;
+      }
+    }
+
+    .address {
+      width: 18vw;
+      height: 10vh !important;
+      font-size: 1.5vw;
+      margin-top: 9vh;
+
+      .big {
+        width: 19vw;
+        height: 15vh !important;
+        font-size: 1.5vw;
+        margin-top: 1vh;
+      }
+    }
+  }
 }
+
+//tablet screen scaling
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  #navbar {
+    width: 70vw;
+    height: 3vh;
+    font-size: 3vw;
+  }
+}
+
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
