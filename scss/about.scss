@@ -35,13 +35,13 @@ body {
     height: 4vh;
     font-size: 3rem;
   }
-
+  //title
   .box1 {
     h1 {
       font-size: 3vw !important;
     }
   }
-
+  //introduction and pictures
   .box2 {
     .subbox1 {
       p {
@@ -57,7 +57,7 @@ body {
       }
     }
   }
-
+  //profile descriptions
   .box3 {
     height: 65vh !important;
     .Louis {
@@ -344,7 +344,7 @@ body {
   justify-content: center;
   gap: 20rem;
 }
-
+//Louis Profile
 .Louis {
   margin-top: 10vh;
   img {
@@ -364,7 +364,7 @@ body {
     color: white;
   }
 }
-
+//TJ Profile
 .TJ {
   margin-top: 10vh;
   img {

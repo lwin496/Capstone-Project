@@ -63,6 +63,7 @@ body {
     right: 3vw;
   }
 }
+//form inputs and media
 .inputContainer {
   margin-top: 10vh;
   background-color: $white;
@@ -125,7 +126,7 @@ body {
     font-size: 2.75rem;
     box-shadow: 0 15px 5px -5px $background;
   }
-
+  //Message icon and title
   .imageContainer {
     img {
       width: 30vw;
@@ -224,8 +225,9 @@ body {
     height: 3vh;
     font-size: 3vw;
   }
-
+  //rescales footer to be smaller
   .footer {
+    top: 0;
     height: 15vh !important;
     .logo {
       width: 30vw;
@@ -243,7 +245,7 @@ body {
     }
     .contact {
       width: 20vw;
-      margin: 0;
+      margin-right: 3vw;
       margin-top: 8vh;
       .big {
         font-size: 2.5vw;
@@ -256,16 +258,29 @@ body {
       }
     }
     .address {
-      width: 20vw;
+      width: 15vw;
       margin: 0;
       margin-top: 6vh;
       .big {
         font-size: 2.5vw;
-        width: 20vw;
+        width: 15vw;
       }
     }
   }
+  .inputContainer {
+    .inputs {
+      width: 50vw;
+      margin-bottom: 13vh;
+    }
+  }
+
   .imageContainer {
+    .messageIcon {
+      width: 34vw;
+      right: 13vw;
+
+      top: 10vh;
+    }
     h1 {
       margin-left: 2vw;
       font-size: 7vw;

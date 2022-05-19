@@ -2,26 +2,32 @@
   font-family: Akira;
   src: url("../fonts/Akira Expanded Demo.otf");
 }
+
 @font-face {
   font-family: LouisBold;
   src: url("../fonts/Louis George Cafe Bold.ttf");
 }
+
 @font-face {
   font-family: LouisLight;
   src: url("../fonts/Louis George Cafe Light.ttf.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 @font-face {
   font-family: fancyPrice;
   src: url("/fonts/Barlow-Bold.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -41,14 +47,16 @@
   width: 50rem;
   box-shadow: 0 10px 5px -5px #f05454;
 }
+
 #navbar a {
   font-family: Louis;
   color: #f5f5f5;
   text-decoration: none;
   position: relative;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: #121212;
   position: absolute;
   left: 0;
@@ -58,12 +66,14 @@
   z-index: -1;
   transition: all 0.3s ease-in-out;
 }
+
 #navbar a:hover::before {
   bottom: 0;
   height: 100%;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: rgba(240, 84, 84, 0.75);
   position: absolute;
   left: 0;
@@ -78,17 +88,16 @@
     position: fixed;
     visibility: hidden;
   }
-
   #hambutton {
     position: fixed;
     visibility: hidden;
   }
 }
+
 @media only screen and (max-width: 799px) {
   #navbar {
     visibility: hidden;
   }
-
   .hambutton {
     position: relative;
     left: 70vw;
@@ -101,7 +110,6 @@
   .hambutton:active {
     width: 6.5rem;
   }
-
   #hambuttonclose {
     width: 5rem;
     margin: 0;
@@ -111,7 +119,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .mobilescreen {
     overflow-y: hidden;
     overflow-x: hidden;
@@ -125,7 +132,6 @@
     overflow-x: hidden;
     transition: 0.5s;
   }
-
   .mobilecontent {
     position: relative;
     top: 25%;
@@ -147,10 +153,12 @@
     cursor: pointer;
   }
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 body .footer {
   position: relative;
   top: 70vh;
@@ -164,31 +172,37 @@ body .footer {
   justify-content: space-evenly;
   text-align: center;
 }
+
 body .produced {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .contact {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: -4rem;
 }
+
 body .address {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .big {
   position: absolute;
   font-size: 1.5rem;
   top: 2rem;
 }
+
 body .logo {
   margin-top: 2rem;
   height: 13vh;
   width: 16vw;
 }
+
 body .media {
   position: relative;
   width: 2rem;
@@ -196,11 +210,13 @@ body .media {
   top: 2rem;
   right: 9rem;
 }
+
 body #mailLink {
   position: relative;
   color: #f5f5f5;
   bottom: 1.25rem;
 }
+
 body #mailLink :visited {
   color: #f5f5f5;
 }
@@ -233,11 +249,13 @@ body {
   height: 110vh;
   width: 35%;
 }
+
 .imageContainer img {
   margin-top: -8rem;
   width: 25rem;
   padding-left: 7rem;
 }
+
 .imageContainer h1 {
   margin-top: 10rem;
   display: flex;
@@ -247,6 +265,7 @@ body {
   font-size: 3rem;
   color: #f5f5f5;
 }
+
 .imageContainer hr {
   position: relative;
   width: 27rem;
@@ -256,6 +275,7 @@ body {
   top: 20vh;
   left: 10vw;
 }
+
 .imageContainer img {
   position: relative;
   top: 20vh;
@@ -273,6 +293,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .inputContainer button {
   width: 50%;
   background-color: #f05454;
@@ -283,6 +304,7 @@ body {
   padding: 0.5rem 0;
   transition: filter 0.3s ease;
 }
+
 .inputContainer button:hover {
   cursor: pointer;
   filter: brightness(0.75);
@@ -295,6 +317,7 @@ body {
   gap: 1.5rem;
   align-items: flex-end;
 }
+
 .inputs input {
   font-family: Louis;
   border: none;
@@ -303,12 +326,15 @@ body {
   font-size: 2rem;
   color: #121212;
 }
+
 .inputs a {
   text-decoration: none;
 }
+
 .inputs img {
   height: 100px;
 }
+
 .inputs .iconcontainer {
   margin: auto;
 }
@@ -325,7 +351,6 @@ body {
     font-size: 2.75rem;
     box-shadow: 0 15px 5px -5px #f05454;
   }
-
   .imageContainer img {
     width: 30vw;
     position: relative;
@@ -337,7 +362,6 @@ body {
     top: 13vh;
     left: 3vw;
   }
-
   .inputContainer img {
     width: 6vw;
     height: 10vh;
@@ -352,7 +376,6 @@ body {
     height: 10vh;
     font-size: 3.5rem;
   }
-
   .footer .logo {
     width: 20vw;
     height: 15vh !important;
@@ -401,14 +424,15 @@ body {
     margin-top: 1vh;
   }
 }
+
 @media screen and (min-width: 800px) and (max-width: 1200px) {
   #navbar {
     width: 70vw;
     height: 3vh;
     font-size: 3vw;
   }
-
   .footer {
+    top: 0;
     height: 15vh !important;
   }
   .footer .logo {
@@ -427,7 +451,7 @@ body {
   }
   .footer .contact {
     width: 20vw;
-    margin: 0;
+    margin-right: 3vw;
     margin-top: 8vh;
   }
   .footer .contact .big {
@@ -439,21 +463,30 @@ body {
     top: 0;
   }
   .footer .address {
-    width: 20vw;
+    width: 15vw;
     margin: 0;
     margin-top: 6vh;
   }
   .footer .address .big {
     font-size: 2.5vw;
-    width: 20vw;
+    width: 15vw;
   }
-
+  .inputContainer .inputs {
+    width: 50vw;
+    margin-bottom: 13vh;
+  }
+  .imageContainer .messageIcon {
+    width: 34vw;
+    right: 13vw;
+    top: 10vh;
+  }
   .imageContainer h1 {
     margin-left: 2vw;
     font-size: 7vw;
     max-width: 30vw;
   }
 }
+
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
@@ -473,4 +506,5 @@ body {
 *::-webkit-scrollbar-thumb {
   background-color: #bebfc4;
   border-radius: 10px;
-}/*# sourceMappingURL=contact.css.map */
+}
+/*# sourceMappingURL=contact.css.map */

@@ -2,26 +2,32 @@
   font-family: Akira;
   src: url("../fonts/Akira Expanded Demo.otf");
 }
+
 @font-face {
   font-family: LouisBold;
   src: url("../fonts/Louis George Cafe Bold.ttf");
 }
+
 @font-face {
   font-family: LouisLight;
   src: url("../fonts/Louis George Cafe Light.ttf.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 @font-face {
   font-family: fancyPrice;
   src: url("/fonts/Barlow-Bold.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -41,14 +47,16 @@
   width: 50rem;
   box-shadow: 0 10px 5px -5px #f05454;
 }
+
 #navbar a {
   font-family: Louis;
   color: #f5f5f5;
   text-decoration: none;
   position: relative;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: #121212;
   position: absolute;
   left: 0;
@@ -58,12 +66,14 @@
   z-index: -1;
   transition: all 0.3s ease-in-out;
 }
+
 #navbar a:hover::before {
   bottom: 0;
   height: 100%;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: rgba(240, 84, 84, 0.75);
   position: absolute;
   left: 0;
@@ -78,17 +88,16 @@
     position: fixed;
     visibility: hidden;
   }
-
   #hambutton {
     position: fixed;
     visibility: hidden;
   }
 }
+
 @media only screen and (max-width: 799px) {
   #navbar {
     visibility: hidden;
   }
-
   .hambutton {
     position: relative;
     left: 70vw;
@@ -101,7 +110,6 @@
   .hambutton:active {
     width: 6.5rem;
   }
-
   #hambuttonclose {
     width: 5rem;
     margin: 0;
@@ -111,7 +119,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .mobilescreen {
     overflow-y: hidden;
     overflow-x: hidden;
@@ -125,7 +132,6 @@
     overflow-x: hidden;
     transition: 0.5s;
   }
-
   .mobilecontent {
     position: relative;
     top: 25%;
@@ -147,10 +153,12 @@
     cursor: pointer;
   }
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 body .footer {
   position: relative;
   top: 70vh;
@@ -164,31 +172,37 @@ body .footer {
   justify-content: space-evenly;
   text-align: center;
 }
+
 body .produced {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .contact {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: -4rem;
 }
+
 body .address {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .big {
   position: absolute;
   font-size: 1.5rem;
   top: 2rem;
 }
+
 body .logo {
   margin-top: 2rem;
   height: 13vh;
   width: 16vw;
 }
+
 body .media {
   position: relative;
   width: 2rem;
@@ -196,11 +210,13 @@ body .media {
   top: 2rem;
   right: 9rem;
 }
+
 body #mailLink {
   position: relative;
   color: #f5f5f5;
   bottom: 1.25rem;
 }
+
 body #mailLink :visited {
   color: #f5f5f5;
 }
@@ -209,10 +225,12 @@ body #mailLink :visited {
   font-family: LouisBold;
   src: url("../fonts/Louis George Cafe Bold.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -228,11 +246,9 @@ body {
     height: 4vh;
     font-size: 3rem;
   }
-
   .box1 h1 {
     font-size: 3vw !important;
   }
-
   .box2 .subbox1 p {
     font-size: 2.5vh !important;
     max-width: 30vh !important;
@@ -241,7 +257,6 @@ body {
     font-size: 2.5vh !important;
     max-width: 40vh !important;
   }
-
   .box3 {
     height: 65vh !important;
   }
@@ -279,7 +294,6 @@ body {
     width: 17vw;
     height: 30vh;
   }
-
   .footer .logo {
     width: 20vw;
     height: 15vh !important;
@@ -328,20 +342,19 @@ body {
     margin-top: 1vh;
   }
 }
+
 @media screen and (min-width: 800px) and (max-width: 1200px) {
   #navbar {
     width: 70vw;
     height: 3vh;
     font-size: 3vw;
   }
-
   .box1 {
     height: 50vh !important;
   }
   .box1 h1 {
     margin-top: 5vh;
   }
-
   .box2 .subbox1 {
     gap: 0;
   }
@@ -364,7 +377,6 @@ body {
     width: 20vw;
     margin-right: 1vw;
   }
-
   .box3 {
     gap: 10vw !important;
   }
@@ -394,7 +406,6 @@ body {
     width: 35vw;
     height: 25vh;
   }
-
   .footer {
     height: 15vh !important;
   }
@@ -435,6 +446,7 @@ body {
     width: 20vw;
   }
 }
+
 .box1 {
   position: relative;
   height: 60vh;
@@ -445,12 +457,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .box1 h1 {
   text-align: center;
   color: white;
   font-family: Akira;
   font-size: 3rem;
 }
+
 .box1 span {
   color: #eec643;
 }
@@ -460,10 +474,12 @@ body {
   height: 100vh;
   font-family: Louis;
 }
+
 .box2 img {
   height: 40vh;
   width: 40vw;
 }
+
 .box2 .subbox1 {
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -471,6 +487,7 @@ body {
   gap: 10vw;
   justify-content: center;
 }
+
 .box2 .subbox1 p {
   max-width: 20rem;
   display: flex;
@@ -478,15 +495,18 @@ body {
   align-items: center;
   font-size: 1.5rem;
 }
+
 .box2 .subbox1 .studio1 {
   box-shadow: 60px -40px #f05454;
 }
+
 .box2 .subbox2 {
   display: flex;
   gap: 10vw;
   flex-direction: row-reverse;
   justify-content: center;
 }
+
 .box2 .subbox2 p {
   max-width: 25rem;
   display: flex;
@@ -494,6 +514,7 @@ body {
   align-items: center;
   font-size: 1.5rem;
 }
+
 .box2 .subbox2 .studio2 {
   box-shadow: -60px 40px #f05454;
 }
@@ -509,17 +530,20 @@ body {
 .Louis {
   margin-top: 10vh;
 }
+
 .Louis img {
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
 }
+
 .Louis p {
   max-width: 20rem;
   text-align: center;
   font-family: Louis;
   color: white;
 }
+
 .Louis h1 {
   text-align: center;
   font-family: LouisBold;
@@ -529,17 +553,20 @@ body {
 .TJ {
   margin-top: 10vh;
 }
+
 .TJ img {
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
 }
+
 .TJ p {
   text-align: center;
   max-width: 20rem;
   font-family: Louis;
   color: white;
 }
+
 .TJ h1 {
   text-align: center;
   font-family: LouisBold;
@@ -570,4 +597,5 @@ body {
 *::-webkit-scrollbar-thumb {
   background-color: #bebfc4;
   border-radius: 10px;
-}/*# sourceMappingURL=about.css.map */
+}
+/*# sourceMappingURL=about.css.map */

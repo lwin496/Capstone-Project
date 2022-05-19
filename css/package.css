@@ -2,26 +2,32 @@
   font-family: Akira;
   src: url("../fonts/Akira Expanded Demo.otf");
 }
+
 @font-face {
   font-family: LouisBold;
   src: url("../fonts/Louis George Cafe Bold.ttf");
 }
+
 @font-face {
   font-family: LouisLight;
   src: url("../fonts/Louis George Cafe Light.ttf.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 @font-face {
   font-family: fancyPrice;
   src: url("/fonts/Barlow-Bold.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -41,14 +47,16 @@
   width: 50rem;
   box-shadow: 0 10px 5px -5px #f05454;
 }
+
 #navbar a {
   font-family: Louis;
   color: #f5f5f5;
   text-decoration: none;
   position: relative;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: #121212;
   position: absolute;
   left: 0;
@@ -58,12 +66,14 @@
   z-index: -1;
   transition: all 0.3s ease-in-out;
 }
+
 #navbar a:hover::before {
   bottom: 0;
   height: 100%;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: rgba(240, 84, 84, 0.75);
   position: absolute;
   left: 0;
@@ -78,17 +88,16 @@
     position: fixed;
     visibility: hidden;
   }
-
   #hambutton {
     position: fixed;
     visibility: hidden;
   }
 }
+
 @media only screen and (max-width: 799px) {
   #navbar {
     visibility: hidden;
   }
-
   .hambutton {
     position: relative;
     left: 70vw;
@@ -101,7 +110,6 @@
   .hambutton:active {
     width: 6.5rem;
   }
-
   #hambuttonclose {
     width: 5rem;
     margin: 0;
@@ -111,7 +119,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .mobilescreen {
     overflow-y: hidden;
     overflow-x: hidden;
@@ -125,7 +132,6 @@
     overflow-x: hidden;
     transition: 0.5s;
   }
-
   .mobilecontent {
     position: relative;
     top: 25%;
@@ -147,10 +153,12 @@
     cursor: pointer;
   }
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 body .footer {
   position: relative;
   top: 70vh;
@@ -164,31 +172,37 @@ body .footer {
   justify-content: space-evenly;
   text-align: center;
 }
+
 body .produced {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .contact {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: -4rem;
 }
+
 body .address {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .big {
   position: absolute;
   font-size: 1.5rem;
   top: 2rem;
 }
+
 body .logo {
   margin-top: 2rem;
   height: 13vh;
   width: 16vw;
 }
+
 body .media {
   position: relative;
   width: 2rem;
@@ -196,11 +210,13 @@ body .media {
   top: 2rem;
   right: 9rem;
 }
+
 body #mailLink {
   position: relative;
   color: #f5f5f5;
   bottom: 1.25rem;
 }
+
 body #mailLink :visited {
   color: #f5f5f5;
 }
@@ -213,9 +229,11 @@ body #mailLink :visited {
 body {
   background-color: #f5f5f5;
 }
+
 body sup {
   font-size: 2.5rem;
 }
+
 body .title {
   font-size: 4rem;
   font-family: Louis;
@@ -224,6 +242,7 @@ body .title {
   justify-content: center;
   top: 5rem;
 }
+
 body .choose {
   display: flex;
   justify-content: center;
@@ -233,6 +252,7 @@ body .choose {
   border-bottom-right-radius: 2rem;
   padding-bottom: 2rem;
 }
+
 body .choose button {
   font-family: LouisBold;
   background-color: #121212;
@@ -246,13 +266,16 @@ body .choose button {
   align-items: center;
   font-size: 2rem;
 }
+
 body .choose button:hover {
   cursor: pointer;
   width: 12rem;
 }
+
 body .choose button:active {
   color: #eec643;
 }
+
 body .main {
   position: relative;
   display: flex;
@@ -262,34 +285,43 @@ body .main {
   left: 5vw;
   width: 90vw;
   font-family: Louis;
+  height: 63vh;
 }
+
 body .para {
   font-size: 1.5rem;
 }
+
 body .pack1 {
   box-shadow: 0px 0px 12px 1px #f05454;
   border-radius: 2rem;
   transition: transform 0.1s;
 }
+
 body .pack1:hover {
   transform: scale(1.1);
 }
+
 body .pack2 {
   box-shadow: 0px 0px 12px 1px #f05454;
   border-radius: 2rem;
   transition: transform 0.1s;
 }
+
 body .pack2:hover {
   transform: scale(1.1);
 }
+
 body .pack3 {
   box-shadow: 0px 0px 12px 1px #f05454;
   border-radius: 2rem;
   transition: transform 0.1s;
 }
+
 body .pack3:hover {
   transform: scale(1.1);
 }
+
 body .price {
   margin: auto;
   font-family: LouisBold;
@@ -300,6 +332,7 @@ body .price {
   padding-top: 1rem;
   border-bottom: 1px solid #121212;
 }
+
 body .feature {
   margin: auto;
   font-size: 1.5rem;
@@ -314,6 +347,7 @@ body .feature {
   justify-content: space-between;
   border-bottom: 1px solid #121212;
 }
+
 body .time {
   margin: auto;
   padding-top: 1.5rem;
@@ -328,6 +362,7 @@ body .time {
   justify-content: space-between;
   border-bottom: 1px solid #121212;
 }
+
 body .description {
   margin: auto;
   font-size: 1.5rem;
@@ -338,6 +373,7 @@ body .description {
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
 }
+
 body .title1 {
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
@@ -352,10 +388,12 @@ body .title1 {
   padding-bottom: 1rem;
   border: none;
 }
+
 body span {
   background-color: #f05454;
   padding: 0.1rem;
   border-radius: 0.75rem;
+  height: 3.1vh;
 }
 
 .footer {
@@ -389,34 +427,101 @@ body span {
     height: 4vh;
     font-size: 3rem;
   }
-
   .title {
     font-size: 7vh !important;
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 8vh;
   }
-
-  .main {
-    width: 90vw;
-    height: 60vh;
+  .main .pack1 {
+    height: 53vh;
   }
-
-  .prices {
-    width: 30vw;
+  .main .pack1 .title1 {
+    width: 20vw;
+    height: 2.5vh;
+    font-size: 1.75vw;
   }
-
-  .title1 {
-    width: 30vw;
+  .main .pack1 .choose {
+    margin-top: 6vh;
   }
-
-  .services {
-    width: 30vw;
+  .main .pack1 .description {
+    width: 20vw;
+    font-size: 2vw;
   }
-
-  .description {
-    width: 30vw;
+  .main .pack1 .feature {
+    width: 20vw;
+    font-size: 2vw;
   }
-
+  .main .pack1 .time {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack1 .price {
+    height: 10vh;
+    font-size: 3.75vw;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .main .pack2 {
+    height: 53vh;
+  }
+  .main .pack2 .title1 {
+    width: 20vw;
+    height: 2.5vh;
+    font-size: 1.75vw;
+  }
+  .main .pack2 .choose {
+    margin-top: 9.5vh;
+  }
+  .main .pack2 .description {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack2 .feature {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack2 .time {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack2 .price {
+    height: 10vh;
+    font-size: 3.75vw;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .main .pack3 {
+    height: 53vh;
+  }
+  .main .pack3 .title1 {
+    width: 20vw;
+    height: 2.5vh;
+    font-size: 1.75vw;
+  }
+  .main .pack3 .choose {
+    margin-top: 6vh;
+  }
+  .main .pack3 .description {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack3 .feature {
+    width: 20vw;
+    font-size: 1.75vw;
+  }
+  .main .pack3 .time {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack3 .price {
+    height: 10vh;
+    font-size: 3.75vw;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .footer {
+    top: 30vh !important;
+  }
   .footer .logo {
     width: 20vw;
     height: 15vh !important;
@@ -464,4 +569,138 @@ body span {
     font-size: 1.5vw;
     margin-top: 1vh;
   }
-}/*# sourceMappingURL=package.css.map */
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  #navbar {
+    width: 80vw;
+    height: 4vh;
+    font-size: 3.5vw;
+  }
+  .title {
+    top: 11vh !important;
+  }
+  .main .pack1 {
+    height: 45vh;
+  }
+  .main .pack1 .title1 {
+    width: 20vw;
+    font-size: 1.75vw;
+  }
+  .main .pack1 .choose {
+    padding: 1vh;
+  }
+  .main .pack1 .description {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack1 .feature {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack1 .time {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack1 .price {
+    font-size: 3.75vw;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .main .pack2 {
+    height: 45vh;
+  }
+  .main .pack2 .title1 {
+    width: 20vw;
+    font-size: 1.75vw;
+  }
+  .main .pack2 .choose {
+    padding: 1vh;
+  }
+  .main .pack2 .description {
+    width: 20vw;
+    font-size: 2vw;
+    height: 8vh;
+  }
+  .main .pack2 .feature {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack2 .time {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack2 .price {
+    font-size: 3.75vw;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .main .pack3 {
+    height: 45vh;
+  }
+  .main .pack3 .title1 {
+    width: 20vw;
+    font-size: 1.75vw;
+  }
+  .main .pack3 .choose {
+    padding: 1vh;
+  }
+  .main .pack3 .description {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack3 .feature {
+    width: 20vw;
+    font-size: 1.75vw;
+  }
+  .main .pack3 .time {
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .main .pack3 .price {
+    font-size: 3.75vw;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .footer {
+    top: 20vh !important;
+    height: 15vh !important;
+  }
+  .footer .logo {
+    width: 30vw;
+    height: 12vh;
+    margin-bottom: 1vh;
+  }
+  .footer .produced {
+    width: 20vw;
+    margin: 0;
+    margin-top: 8vh;
+  }
+  .footer .produced .big {
+    font-size: 2.5vw;
+    width: 20vw;
+  }
+  .footer .contact {
+    width: 20vw;
+    margin-right: 3vw;
+    margin-top: 8vh;
+  }
+  .footer .contact .big {
+    font-size: 2.5vw;
+    width: 20vw;
+  }
+  .footer .contact .media {
+    left: 1vw;
+    top: 0;
+  }
+  .footer .address {
+    width: 15vw;
+    margin: 0;
+    margin-top: 6vh;
+  }
+  .footer .address .big {
+    font-size: 2.5vw;
+    width: 15vw;
+  }
+}
+/*# sourceMappingURL=package.css.map */

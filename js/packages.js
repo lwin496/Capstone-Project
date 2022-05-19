@@ -9,7 +9,7 @@ let packages = [{
  { 
       "type": "STANDARD",
       "price" : "299USD",
-      "services": "filming",
+      "services": "Filming",
       "time" : "3-5 Days",
       "description": "We will film professional grade footage for you. "
       
@@ -17,7 +17,7 @@ let packages = [{
 { 
       "type": "PRO",
       "price" : "499USD",
-      "services": "Editing and Filming",
+      "services": "Editing & Filming",
       "time" : "8 Days",
       "description": "Combo of film and editing to bring you pro grade video."
 }]

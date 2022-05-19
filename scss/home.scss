@@ -42,7 +42,7 @@ body {
     width: 100vw;
   }
 }
-
+//simple navbar
 #navbar {
   font-family: LouisBold;
   z-index: 50;
@@ -83,7 +83,7 @@ body {
   top: 30vh;
   text-shadow: 5px 5px 10px $black;
 }
-
+//links to other pages
 .dualButtons {
   margin-top: -10vh;
   position: relative;
@@ -235,13 +235,14 @@ body {
 
 // WIDESCREEN SCALLING
 @media only screen and (min-width: 2000px) {
+  //wider nav bar
   #navbar {
     width: 60vw;
     height: 4vh;
     font-size: 2.75rem;
     box-shadow: 0 15px 5px -5px $background;
   }
-
+  //expnaded footer
   .footer {
     .logo {
       width: 20vw;
