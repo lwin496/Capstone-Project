@@ -42,6 +42,13 @@ document.getElementById("service3").innerHTML = packages[2].services;
 document.getElementById("time3").innerHTML = packages[2].time;
 document.getElementById("description3").innerHTML = 'Description: ' + packages[2].description;
 
+function blink(){ 
+      var b = document.getElementById('blink');
+      setInterval(function(){ 
+            b.style.display = (b.style.display == 'none' ? '' : 'none');
+      }, 900)
+}
+
 
 
 
