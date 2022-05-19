@@ -125,70 +125,96 @@ body {
   border-radius: 10px;
 }
 
-// MOBILE SCALLING
-@media only screen and (max-width: 799px) {
-  .reel-header {
+// MOBILE SCALLING 
+@media only screen and (max-width:1100px) {
+  
+  body{ 
+    
+  }
+  .reel-header{ 
     margin-top: 30vh;
     position: static;
     display: flex;
     justify-content: center;
     text-align: center;
-    h1 {
+    h1{ 
       width: 2rem;
+  
     }
   }
-  .reel-header2 {
+  .reel-header2{ 
     display: flex;
     justify-content: center;
     position: static;
   }
-  .reel-subheader {
+  .reel-subheader{ 
     display: flex;
     justify-content: center;
     position: static;
   }
 
-  .container {
+  .container{ 
     display: flex;
     flex-direction: column;
     position: relative;
-
-    .dualButtons {
+    
+    .dualButtons{ 
+      
       gap: 5rem;
       position: static;
-      display: flex;
+      display: flex; 
       align-items: center;
       justify-content: center;
-      margin-top: 20rem;
+      margin-top: 20rem;    
       flex-direction: column;
-      a {
+      a{ 
         text-align: center;
         width: 15rem;
       }
+     
+     
     }
   }
-  .footer {
+  .footer{ 
     overflow-x: hidden;
   }
 
-  // mobile navbar
 
-  #navbar {
+
+  .slide-in-top {
+    animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+// mobile navbar dont touch TJ 
+
+  #navbar{ 
     display: none;
   }
-  .hambutton {
+  .hambutton{ 
+    
     position: relative;
     left: 70vw;
     width: 6rem;
     top: 3vh;
-    &:hover {
+    &:hover{ 
       cursor: pointer;
     }
-    &:active {
+    &:active{ 
       width: 6.5rem;
     }
   }
-  #hambuttonclose {
+  #hambuttonclose{
     width: 5rem;
     margin: 0;
     position: relative;
@@ -196,21 +222,24 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+   
+  
+
   }
-  .mobilescreen {
+  .mobilescreen{ 
     overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-x:hidden;
     z-index: 200;
     height: 100%;
     width: 100%;
     height: 0;
     position: fixed;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0,0,0, .95);
     overflow-x: hidden;
     transition: 0.5s;
-  }
-  .mobilecontent {
+  } 
+  .mobilecontent{
     position: relative;
     top: 25%;
     width: 100%;
@@ -219,82 +248,20 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    a {
+    a{ 
       font-family: LouisBold;
       color: $white;
       font-size: 5rem;
       text-decoration: none;
-
-      &:hover {
+      
+      &:hover{ 
         background-color: $background;
         cursor: pointer;
       }
+      
     }
   }
+ 
 }
 
-// WIDESCREEN SCALLING
-@media only screen and (min-width: 2000px) {
-  #navbar {
-    width: 60vw;
-    height: 4vh;
-    font-size: 2.75rem;
-    box-shadow: 0 15px 5px -5px $background;
-  }
-
-  .footer {
-    .logo {
-      width: 20vw;
-      height: 15vh !important;
-      margin-right: 4vw;
-    }
-
-    .produced {
-      width: 18vw;
-      height: 10vh !important;
-      font-size: 1.5vw;
-      margin-top: 9vh;
-      .big {
-        width: 19vw;
-        height: 15vh !important;
-        font-size: 1.5vw;
-        margin-top: 1vh;
-      }
-    }
-
-    .contact {
-      width: 18vw;
-      height: 10vh !important;
-      font-size: 1.5vw;
-      margin-top: 10vh;
-
-      .media {
-        width: 3vw;
-        height: 4vh;
-        margin-left: 0.5vw;
-        left: 0.75vw;
-      }
-
-      .big {
-        width: 19vw;
-        height: 15vh !important;
-        font-size: 1.5vw;
-        margin-top: 1vh;
-      }
-    }
-
-    .address {
-      width: 18vw;
-      height: 10vh !important;
-      font-size: 1.5vw;
-      margin-top: 9vh;
-
-      .big {
-        width: 19vw;
-        height: 15vh !important;
-        font-size: 1.5vw;
-        margin-top: 1vh;
-      }
-    }
-  }
-}
+// WIDESCREEN SCALLING 

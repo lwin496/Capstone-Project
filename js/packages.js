@@ -9,7 +9,7 @@ let packages = [{
  { 
       "type": "STANDARD",
       "price" : "299USD",
-      "services": "filming",
+      "services": "Filming",
       "time" : "3-5 Days",
       "description": "We will film professional grade footage for you. "
       
@@ -41,6 +41,13 @@ document.getElementById("price3").innerHTML = packages[2].price;
 document.getElementById("service3").innerHTML = packages[2].services;
 document.getElementById("time3").innerHTML = packages[2].time;
 document.getElementById("description3").innerHTML = 'Description: ' + packages[2].description;
+
+function blink(){ 
+      var b = document.getElementById('blink');
+      setInterval(function(){ 
+            b.style.display = (b.style.display == 'none' ? '' : 'none');
+      }, 900)
+}
 
 
 

@@ -2,26 +2,32 @@
   font-family: Akira;
   src: url("../fonts/Akira Expanded Demo.otf");
 }
+
 @font-face {
   font-family: LouisBold;
   src: url("../fonts/Louis George Cafe Bold.ttf");
 }
+
 @font-face {
   font-family: LouisLight;
   src: url("../fonts/Louis George Cafe Light.ttf.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 @font-face {
   font-family: fancyPrice;
   src: url("/fonts/Barlow-Bold.ttf");
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -41,14 +47,16 @@
   width: 50rem;
   box-shadow: 0 10px 5px -5px #f05454;
 }
+
 #navbar a {
   font-family: Louis;
   color: #f5f5f5;
   text-decoration: none;
   position: relative;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: #121212;
   position: absolute;
   left: 0;
@@ -58,12 +66,14 @@
   z-index: -1;
   transition: all 0.3s ease-in-out;
 }
+
 #navbar a:hover::before {
   bottom: 0;
   height: 100%;
 }
+
 #navbar a::before {
-  content: "";
+  content: '';
   background-color: rgba(240, 84, 84, 0.75);
   position: absolute;
   left: 0;
@@ -78,17 +88,16 @@
     position: fixed;
     visibility: hidden;
   }
-
   #hambutton {
     position: fixed;
     visibility: hidden;
   }
 }
+
 @media only screen and (max-width: 799px) {
   #navbar {
     visibility: hidden;
   }
-
   .hambutton {
     position: relative;
     left: 70vw;
@@ -101,7 +110,6 @@
   .hambutton:active {
     width: 6.5rem;
   }
-
   #hambuttonclose {
     width: 5rem;
     margin: 0;
@@ -111,7 +119,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .mobilescreen {
     overflow-y: hidden;
     overflow-x: hidden;
@@ -125,7 +132,6 @@
     overflow-x: hidden;
     transition: 0.5s;
   }
-
   .mobilecontent {
     position: relative;
     top: 25%;
@@ -147,10 +153,12 @@
     cursor: pointer;
   }
 }
+
 @font-face {
   font-family: Louis;
   src: url("../fonts/Louis George Cafe.ttf");
 }
+
 body .footer {
   position: relative;
   top: 70vh;
@@ -164,31 +172,37 @@ body .footer {
   justify-content: space-evenly;
   text-align: center;
 }
+
 body .produced {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .contact {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: -4rem;
 }
+
 body .address {
   margin-top: 5rem;
   font-size: 1rem;
   margin-right: 5rem;
 }
+
 body .big {
   position: absolute;
   font-size: 1.5rem;
   top: 2rem;
 }
+
 body .logo {
   margin-top: 2rem;
   height: 13vh;
   width: 16vw;
 }
+
 body .media {
   position: relative;
   width: 2rem;
@@ -196,11 +210,13 @@ body .media {
   top: 2rem;
   right: 9rem;
 }
+
 body #mailLink {
   position: relative;
   color: #f5f5f5;
   bottom: 1.25rem;
 }
+
 body #mailLink :visited {
   color: #f5f5f5;
 }
@@ -213,6 +229,7 @@ body #mailLink :visited {
 body {
   overflow-x: hidden;
 }
+
 body video {
   object-fit: cover;
   position: fixed;
@@ -271,6 +288,7 @@ body video {
   display: flex;
   gap: 10px;
 }
+
 .dualButtons a {
   box-shadow: 0 10px 5px -5px #f05454;
   white-space: nowrap;
@@ -304,7 +322,7 @@ body video {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 1100px) {
   .reel-header {
     margin-top: 30vh;
     position: static;
@@ -315,19 +333,16 @@ body video {
   .reel-header h1 {
     width: 2rem;
   }
-
   .reel-header2 {
     display: flex;
     justify-content: center;
     position: static;
   }
-
   .reel-subheader {
     display: flex;
     justify-content: center;
     position: static;
   }
-
   .container {
     display: flex;
     flex-direction: column;
@@ -346,15 +361,25 @@ body video {
     text-align: center;
     width: 15rem;
   }
-
   .footer {
     overflow-x: hidden;
   }
-
+  .slide-in-top {
+    animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
   #navbar {
     display: none;
   }
-
   .hambutton {
     position: relative;
     left: 70vw;
@@ -367,7 +392,6 @@ body video {
   .hambutton:active {
     width: 6.5rem;
   }
-
   #hambuttonclose {
     width: 5rem;
     margin: 0;
@@ -377,7 +401,6 @@ body video {
     margin-left: auto;
     margin-right: auto;
   }
-
   .mobilescreen {
     overflow-y: hidden;
     overflow-x: hidden;
@@ -391,7 +414,6 @@ body video {
     overflow-x: hidden;
     transition: 0.5s;
   }
-
   .mobilecontent {
     position: relative;
     top: 25%;
@@ -413,59 +435,4 @@ body video {
     cursor: pointer;
   }
 }
-@media only screen and (min-width: 2000px) {
-  #navbar {
-    width: 60vw;
-    height: 4vh;
-    font-size: 2.75rem;
-    box-shadow: 0 15px 5px -5px #f05454;
-  }
-
-  .footer .logo {
-    width: 20vw;
-    height: 15vh !important;
-    margin-right: 4vw;
-  }
-  .footer .produced {
-    width: 18vw;
-    height: 10vh !important;
-    font-size: 1.5vw;
-    margin-top: 9vh;
-  }
-  .footer .produced .big {
-    width: 19vw;
-    height: 15vh !important;
-    font-size: 1.5vw;
-    margin-top: 1vh;
-  }
-  .footer .contact {
-    width: 18vw;
-    height: 10vh !important;
-    font-size: 1.5vw;
-    margin-top: 10vh;
-  }
-  .footer .contact .media {
-    width: 3vw;
-    height: 4vh;
-    margin-left: 0.5vw;
-    left: 0.75vw;
-  }
-  .footer .contact .big {
-    width: 19vw;
-    height: 15vh !important;
-    font-size: 1.5vw;
-    margin-top: 1vh;
-  }
-  .footer .address {
-    width: 18vw;
-    height: 10vh !important;
-    font-size: 1.5vw;
-    margin-top: 9vh;
-  }
-  .footer .address .big {
-    width: 19vw;
-    height: 15vh !important;
-    font-size: 1.5vw;
-    margin-top: 1vh;
-  }
-}/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=home.css.map */
